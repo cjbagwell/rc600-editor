@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="RC-600" revision="0">
+<sys>
+<SETUP>
+	<A>79</A>
+	<B>0</B>
+	<C>98</C>
+	<D>2</D>
+	<E>0</E>
+	<F>2</F>
+	<G>0</G>
+	<H>2</H>
+	<I>5</I>
+	<J>1</J>
+	<K>47</K>
+	<L>121</L>
+	<M>277</M>
+	<N>1</N>
+	<O>0</O>
+	<P>0</P>
+	<Q>271</Q>
+	<R>0</R>
+	<S>0</S>
+	<T>0</T>
+	<U>0</U>
+	<V>1</V>
+</SETUP>
+<COLOR>
+	<A>4</A>
+	<B>7</B>
+	<C>1</C>
+	<D>3</D>
+	<E>2</E>
+</COLOR>
+<USB>
+	<A>0</A>
+	<B>0</B>
+	<C>0</C>
+	<D>100</D>
+	<E>100</E>
+</USB>
+<MIDI>
+	<A>0</A>
+	<C>9</C>
+	<D>0</D>
+	<E>16</E>
+	<F>0</F>
+	<G>1</G>
+	<H>1</H>
+	<I>1</I>
+	<J>0</J>
+	<K>0</K>
+</MIDI>
+<ICTL1_TRACK1_FX>
+	<A>15</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK1_FX>
+<ICTL1_TRACK1_TRACK>
+	<A>14</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK1_TRACK>
+<ICTL1_TRACK2_FX>
+	<A>30</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK2_FX>
+<ICTL1_TRACK2_TRACK>
+	<A>29</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK2_TRACK>
+<ICTL1_TRACK3_FX>
+	<A>45</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK3_FX>
+<ICTL1_TRACK3_TRACK>
+	<A>44</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK3_TRACK>
+<ICTL1_TRACK4_FX>
+	<A>60</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK4_FX>
+<ICTL1_TRACK4_TRACK>
+	<A>59</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK4_TRACK>
+<ICTL1_TRACK5_FX>
+	<A>75</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK5_FX>
+<ICTL1_TRACK5_TRACK>
+	<A>74</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_TRACK5_TRACK>
+<ICTL2_TRACK1_FX>
+	<A>9</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK1_FX>
+<ICTL2_TRACK1_TRACK>
+	<A>7</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK1_TRACK>
+<ICTL2_TRACK2_FX>
+	<A>24</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK2_FX>
+<ICTL2_TRACK2_TRACK>
+	<A>22</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK2_TRACK>
+<ICTL2_TRACK3_FX>
+	<A>39</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK3_FX>
+<ICTL2_TRACK3_TRACK>
+	<A>37</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK3_TRACK>
+<ICTL2_TRACK4_FX>
+	<A>54</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK4_FX>
+<ICTL2_TRACK4_TRACK>
+	<A>52</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK4_TRACK>
+<ICTL2_TRACK5_FX>
+	<A>69</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK5_FX>
+<ICTL2_TRACK5_TRACK>
+	<A>67</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_TRACK5_TRACK>
+<ICTL1_PEDAL1>
+	<A>4</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL1>
+<ICTL1_PEDAL2>
+	<A>30</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL2>
+<ICTL1_PEDAL3>
+	<A>56</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL3>
+<ICTL1_PEDAL4>
+	<A>82</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL4>
+<ICTL1_PEDAL5>
+	<A>108</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL5>
+<ICTL1_PEDAL6>
+	<A>134</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL6>
+<ICTL1_PEDAL7>
+	<A>194</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL7>
+<ICTL1_PEDAL8>
+	<A>207</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL8>
+<ICTL1_PEDAL9>
+	<A>187</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL1_PEDAL9>
+<ICTL2_PEDAL1>
+	<A>217</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL1>
+<ICTL2_PEDAL2>
+	<A>218</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL2>
+<ICTL2_PEDAL3>
+	<A>219</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL3>
+<ICTL2_PEDAL4>
+	<A>220</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL4>
+<ICTL2_PEDAL5>
+	<A>221</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL5>
+<ICTL2_PEDAL6>
+	<A>222</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL6>
+<ICTL2_PEDAL7>
+	<A>194</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL7>
+<ICTL2_PEDAL8>
+	<A>207</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL8>
+<ICTL2_PEDAL9>
+	<A>187</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL2_PEDAL9>
+<ICTL3_PEDAL1>
+	<A>196</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL1>
+<ICTL3_PEDAL2>
+	<A>197</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL2>
+<ICTL3_PEDAL3>
+	<A>198</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL3>
+<ICTL3_PEDAL4>
+	<A>199</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL4>
+<ICTL3_PEDAL5>
+	<A>211</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL5>
+<ICTL3_PEDAL6>
+	<A>210</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL6>
+<ICTL3_PEDAL7>
+	<A>194</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL7>
+<ICTL3_PEDAL8>
+	<A>0</A>
+	<B>0</B>
+	<C>0</C>
+</ICTL3_PEDAL8>
+<ICTL3_PEDAL9>
+	<A>189</A>
+	<B>0</B>
+	<C>1</C>
+</ICTL3_PEDAL9>
+<ECTL_CTL1>
+	<A>210</A>
+	<B>188</B>
+	<C>0</C>
+	<D>1</D>
+</ECTL_CTL1>
+<ECTL_CTL2>
+	<A>211</A>
+	<B>189</B>
+	<C>0</C>
+	<D>1</D>
+</ECTL_CTL2>
+<ECTL_CTL3>
+	<A>190</A>
+	<B>170</B>
+	<C>0</C>
+	<D>1</D>
+</ECTL_CTL3>
+<ECTL_CTL4>
+	<A>207</A>
+	<B>185</B>
+	<C>0</C>
+	<D>1</D>
+</ECTL_CTL4>
+<ECTL_EXP1>
+	<A>21</A>
+	<B>19</B>
+	<C>0</C>
+	<D>100</D>
+</ECTL_EXP1>
+<ECTL_EXP2>
+	<A>26</A>
+	<B>24</B>
+	<C>0</C>
+	<D>100</D>
+</ECTL_EXP2>
+<PREF>
+	<A>1</A>
+	<B>1</B>
+	<C>0</C>
+	<D>0</D>
+	<E>0</E>
+	<F>0</F>
+	<G>0</G>
+	<H>0</H>
+	<I>0</I>
+	<J>0</J>
+	<K>0</K>
+	<L>1</L>
+	<M>1</M>
+	<N>1</N>
+	<O>1</O>
+	<P>1</P>
+	<Q>1</Q>
+	<R>1</R>
+	<S>0</S>
+	<T>1</T>
+</PREF>
+<INPUT>
+	<A>0</A>
+	<B>0</B>
+	<C>0</C>
+	<D>0</D>
+	<E>0</E>
+	<F>1</F>
+	<G>1</G>
+	<H>30</H>
+	<I>0</I>
+	<J>40</J>
+	<K>40</K>
+	<L>40</L>
+	<M>40</M>
+</INPUT>
+<OUTPUT>
+	<A>0</A>
+	<B>1</B>
+	<C>1</C>
+	<D>1</D>
+</OUTPUT>
+<ROUTING>
+	<A>63</A>
+	<B>63</B>
+	<C>63</C>
+	<D>63</D>
+	<E>63</E>
+	<F>63</F>
+	<G>63</G>
+	<H>127</H>
+	<I>127</I>
+	<J>127</J>
+	<K>127</K>
+	<L>127</L>
+	<M>127</M>
+	<N>127</N>
+	<O>1</O>
+	<P>0</P>
+	<Q>0</Q>
+	<R>0</R>
+	<S>1</S>
+</ROUTING>
+<MIXER>
+	<A>129</A>
+	<B>0</B>
+	<C>100</C>
+	<D>0</D>
+	<E>112</E>
+	<F>0</F>
+	<G>100</G>
+	<H>0</H>
+	<I>122</I>
+	<J>0</J>
+	<K>200</K>
+	<L>0</L>
+	<M>100</M>
+	<N>100</N>
+	<O>100</O>
+	<P>100</P>
+	<Q>100</Q>
+	<R>100</R>
+	<S>100</S>
+	<T>100</T>
+	<U>8</U>
+	<V>8</V>
+</MIXER>
+<EQ_MIC1>
+	<A>1</A>
+	<B>22</B>
+	<C>22</C>
+	<D>14</D>
+	<E>1</E>
+	<F>23</F>
+	<G>21</G>
+	<H>1</H>
+	<I>19</I>
+	<J>15</J>
+	<K>4</K>
+	<L>14</L>
+</EQ_MIC1>
+<EQ_MIC2>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_MIC2>
+<EQ_INST1L>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_INST1L>
+<EQ_INST1R>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_INST1R>
+<EQ_INST2L>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>12</L>
+</EQ_INST2L>
+<EQ_INST2R>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_INST2R>
+<EQ_MAINOUTL>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_MAINOUTL>
+<EQ_MAINOUTR>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_MAINOUTR>
+<EQ_SUBOUT1L>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_SUBOUT1L>
+<EQ_SUBOUT1R>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_SUBOUT1R>
+<EQ_SUBOUT2L>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_SUBOUT2L>
+<EQ_SUBOUT2R>
+	<A>0</A>
+	<B>20</B>
+	<C>20</C>
+	<D>11</D>
+	<E>0</E>
+	<F>20</F>
+	<G>16</G>
+	<H>0</H>
+	<I>20</I>
+	<J>20</J>
+	<K>0</K>
+	<L>14</L>
+</EQ_SUBOUT2R>
+<MASTER_FX>
+	<A>0</A>
+	<B>14</B>
+	<C>0</C>
+</MASTER_FX>
+<FIXED_VALUE>
+	<A>0</A>
+	<B>1</B>
+</FIXED_VALUE>
+</sys>
+</database>
+<count>0BDC</count>

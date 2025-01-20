@@ -1,0 +1,110 @@
+LooperIdx,source
+0,Track 1 Rec/Dub
+1,Track 2 Rec/Dub
+2,Track 3 Rec/Dub
+3,Track 4 Rec/Dub
+4,Track 5 Rec/Dub
+5,Track 6 Rec/Dub
+6,Track 1Play/Stop
+7,Track 2Play/Stop
+8,Track 3Play/Stop
+9,Track 4Play/Stop
+10,Track 5Play/Stop
+11,Track 6Play/Stop
+12,Sync Start/Stop
+13,Pedal 1 Mode 1
+14,Pedal 2 Mode 1
+15,Pedal 3 Mode 1
+16,Pedal 4 Mode 1
+17,Pedal 5 Mode 1
+18,Pedal 6 Mode 1
+19,Pedal 7 Mode 1
+20,Pedal 8 Mode 1
+21,Pedal 9 Mode 1
+22,Pedal 1 Mode 2
+23,Pedal 2 Mode 2
+24,Pedal 3 Mode 2
+25,Pedal 4 Mode 2
+26,Pedal 5 Mode 2
+27,Pedal 6 Mode 2
+28,Pedal 7 Mode 2
+29,Pedal 8 Mode 2
+30,Pedal 9 Mode 2
+31,Pedal 1 Mode 3
+32,Pedal 2 Mode 3
+33,Pedal 3 Mode 3
+34,Pedal 4 Mode 3
+35,Pedal 5 Mode 3
+36,Pedal 6 Mode 3
+37,Pedal 7 Mode 3
+38,Pedal 8 Mode 3
+39,Pedal 9 Mode 3
+40,Ctl 1
+41,Ctl 2
+42,Ctl 3
+43,Ctl 4
+44,Exp 1
+45,Exp 2
+46,Midi CC#01
+47,Midi CC#02
+48,Midi CC#03
+49,Midi CC#04
+50,Midi CC#05
+51,Midi CC#06
+52,Midi CC#07
+53,Midi CC#08
+54,Midi CC#09
+55,Midi CC#10
+56,Midi CC#11
+57,Midi CC#12
+58,Midi CC#13
+59,Midi CC#14
+60,Midi CC#15
+61,Midi CC#16
+62,Midi CC#17
+63,Midi CC#18
+64,Midi CC#19
+65,Midi CC#20
+66,Midi CC#21
+67,Midi CC#22
+68,Midi CC#23
+69,Midi CC#24
+70,Midi CC#25
+71,Midi CC#26
+72,Midi CC#27
+73,Midi CC#28
+74,Midi CC#29
+75,Midi CC#30
+76,Midi CC#31
+77,Midi CC#64
+78,Midi CC#65
+79,Midi CC#66
+80,Midi CC#67
+81,Midi CC#68
+82,Midi CC#69
+83,Midi CC#70
+84,Midi CC#71
+85,Midi CC#72
+86,Midi CC#73
+87,Midi CC#74
+88,Midi CC#75
+89,Midi CC#76
+90,Midi CC#77
+91,Midi CC#78
+92,Midi CC#79
+93,Midi CC#80
+94,Midi CC#81
+95,Midi CC#82
+96,Midi CC#83
+97,Midi CC#84
+98,Midi CC#85
+99,Midi CC#86
+100,Midi CC#87
+101,Midi CC#88
+102,Midi CC#89
+103,Midi CC#90
+104,Midi CC#91
+105,Midi CC#92
+106,Midi CC#93
+107,Midi CC#94
+108,Midi CC#95
