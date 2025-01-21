@@ -55,10 +55,10 @@ class LoopTracksFrame(ttk.Frame):
                 if track_num == 0:
                     lab = ttk.Label(self, text=label + ":")
                     lab.grid(row=row, column=0, padx=10, pady=5, sticky="w")
-                cbx = ttk.Combobox(self, values=values)
+                cbx = ttk.Combobox(self, values=values, state="readonly")
                 cbx.grid(row=row, column=track_num+1,
                          padx=10, pady=5, sticky="w")
-                cbx.insert(0, values[0])
+                cbx.current(0)
                 cur_dict[label] = cbx
                 row += 1
             self.track_components.append(cur_dict)
@@ -79,9 +79,9 @@ class LoopRecordFrame(ttk.Frame):
         for label, values in record_options.items():
             lbl = ttk.Label(self, text=label + ":")
             lbl.grid(row=row, column=0, padx=10, pady=5, sticky="w")
-            cmbx = ttk.Combobox(self, values=values)
+            cmbx = ttk.Combobox(self, values=values, state="readonly")
             cmbx.grid(row=row, column=1, padx=10, pady=5, sticky="w")
-            cmbx.insert(0, values[0])
+            cmbx.current(0)
             row += 1
             self.components[label] = cmbx
 
@@ -100,9 +100,9 @@ class LoopPlayFrame(ttk.Frame):
         for label, values in play_options.items():
             lbl = ttk.Label(self, text=label + ":")
             lbl.grid(row=row, column=0, padx=10, pady=5, sticky="w")
-            cmbx = ttk.Combobox(self, values=values)
+            cmbx = ttk.Combobox(self, values=values, state="readonly")
             cmbx.grid(row=row, column=1, padx=10, pady=5, sticky="w")
-            cmbx.insert(0, values[0])
+            cmbx.current(0)
             self.components[label] = cmbx
             row += 1
         
@@ -121,9 +121,9 @@ class LoopRhythmFrame(ttk.Frame):
         for label, values in rhythm_options.items():
             lbl = ttk.Label(self, text=label + ":")
             lbl.grid(row=row, column=0, padx=10, pady=5, sticky="w")
-            cmbx = ttk.Combobox(self, values=values)
+            cmbx = ttk.Combobox(self, values=values, state="readonly")
             cmbx.grid(row=row, column=1, padx=10, pady=5, sticky="w")
-            cmbx.insert(0, values[0])
+            cmbx.current(0)
             self.components[label] = cmbx
             row += 1
 

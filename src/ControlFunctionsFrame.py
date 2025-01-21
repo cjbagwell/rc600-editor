@@ -52,7 +52,7 @@ class ControlFunctionFrame(ttk.Frame):
                 for col in range(1, 4):
                     frame = ttk.Frame(self)
                     frame.grid(row=row, column=col,padx=10,pady=5,sticky="w")
-                    cbx = ttk.Combobox(frame, values=dropdown_options)
+                    cbx = ttk.Combobox(frame, values=dropdown_options, state="readonly")
                     cbx.grid(row=0, column=0, columnspan=3,padx=5,pady=5,sticky="w")
                     cbx.current(0)
                     labels = [
