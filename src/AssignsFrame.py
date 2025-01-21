@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-import json
 import csv
+import numpy as np
 
 
 def read_csv_options(csv_file, colName):
@@ -20,10 +20,34 @@ class AssignsFrame(ttk.Frame):
         # self.grid(row=0, column=0, sticky="nsew")
         self.create_widgets()
 
+    def read_target_options(self):
+        csv_file = 'data/AssignTargets.csv'
+        targets = []
+        minMaxOptions = []
+        with open(csv_file, newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                targets.append(row['target'])
+                cur_opts = row['minMaxOptions'].strip()
+                if cur_opts.find(',') != -1:
+                    cur_opts = cur_opts.split(',')
+                elif cur_opts.find(':') != -1:
+                    parts = cur_opts.split(':')
+                    if len(parts) == 3:
+                        start, step, end = map(float, parts)
+                        cur_opts = list(map(str, np.arange(start, end + step, step)))
+                    else:
+                        raise ValueError("Invalid range string format")
+                minMaxOptions.append(cur_opts)
+        
+        return targets, minMaxOptions
+
+
+
     def create_widgets(self):
         # Read options from CSV files
-        source_options = read_csv_options('data/Assign_Functions.csv', 'source')
-        target_options = read_csv_options('data/Assign_Functions.csv', 'source')
+        source_options = read_csv_options('data/AssignSources.csv', 'source')
+        target_options, minMaxOptions = self.read_target_options() 
         # prepare a list for the 16 assign elements
         self.components = []
         # Create the 4x4 grid layout
@@ -35,8 +59,6 @@ class AssignsFrame(ttk.Frame):
                 
                 # Create the variables behind each component
                 enable_var = tk.BooleanVar(value=False)
-                min_var = tk.BooleanVar(value=False)
-                max_var = tk.BooleanVar()
                 act_lo_var = tk.StringVar()
                 act_hi_var = tk.StringVar()  # Ensure act_hi_var is defined before using it
 
@@ -74,16 +96,43 @@ class AssignsFrame(ttk.Frame):
                 act_lo_label = ttk.Label(frame, text="ACT.LO:")
                 act_hi_label = ttk.Label(frame, text="ACT.HI:")
                 target_label = ttk.Label(frame, text="Target:")
+                min_label = ttk.Label(frame, text="Min:")
+                max_label = ttk.Label(frame, text="Max:")
 
                 # Create the components
                 enable_checkbox = ttk.Checkbutton(frame, text="Enable", variable=enable_var)
-                min_checkbox = ttk.Checkbutton(frame, text="Min", variable=min_var)
-                max_checkbox = ttk.Checkbutton(frame, text="Max", variable=max_var)
+                min_combobox = ttk.Combobox(frame, text="Min")
+                max_combobox = ttk.Combobox(frame, text="Max")
                 source_combobox = ttk.Combobox(frame, values=source_options)
                 mode_combobox = ttk.Combobox(frame, values=["Moment", "Toggle"])
                 act_lo_spinbox = ttk.Spinbox(frame, from_=0, to=126, textvariable=act_lo_var, validate="key", validatecommand=vcmd_lo)
                 act_hi_spinbox = ttk.Spinbox(frame, from_=1, to=127, textvariable=act_hi_var, validate="key", validatecommand=vcmd_hi)
                 target_combobox = ttk.Combobox(frame, values=target_options)
+
+                # Bind the min and max comboboxes to the minMaxOptions list
+                def update_min_max(event, min_cmbx, max_cmbx):
+                    target = event.widget.get()
+                    idx = target_options.index(target)
+                    current_min = min_cmbx.get()
+                    current_max = max_cmbx.get()
+                    min_cmbx.config(values=minMaxOptions[idx])
+                    max_cmbx.config(values=minMaxOptions[idx])
+                    if current_min in minMaxOptions[idx]:
+                        min_cmbx.set(current_min)
+                    if current_max in minMaxOptions[idx]:
+                        max_cmbx.set(current_max)
+                
+                target_combobox.bind("<<ComboboxSelected>>", lambda event, min_cmbx=min_combobox, max_cmbx=max_combobox: update_min_max(event, min_cmbx, max_cmbx))     
+                target_combobox.current(0)
+                target_combobox.event_generate("<<ComboboxSelected>>")
+
+                # Set the default values
+                source_combobox.current(0)
+                mode_combobox.current(0)
+                min_combobox.current(0)
+                max_combobox.current(0)
+                act_lo_var.set("0")
+                act_hi_var.set("127")
 
                 # Create the trace commands                
                 def update_act_hi_range(lo_var, hi_spinbox):
@@ -98,18 +147,20 @@ class AssignsFrame(ttk.Frame):
                 # Place the labels and components in the grid
                 assign_label.grid(   row=0, column=0, columnspan=1, padx=5, pady=5, sticky="w")
                 enable_checkbox.grid(row=0, column=1, columnspan=1, padx=5, pady=5, sticky="w")
-                min_checkbox.grid(   row=0, column=2, columnspan=1, padx=5, pady=5, sticky="w")
-                max_checkbox.grid(   row=0, column=3, columnspan=1, padx=5, pady=5, sticky="w")
                 src_label.grid(      row=1, column=0, columnspan=1, padx=5, pady=5, sticky="w")
                 source_combobox.grid(row=1, column=1, columnspan=2, padx=5, pady=5, sticky="w")
-                mode_label.grid(     row=2, column=0, columnspan=1, padx=5, pady=5, sticky="w")
-                mode_combobox.grid(  row=2, column=1, columnspan=2, padx=5, pady=5, sticky="w")
-                act_lo_label.grid(   row=3, column=0, columnspan=1, padx=5, pady=5, sticky="w")
-                act_lo_spinbox.grid( row=3, column=1, columnspan=1, padx=5, pady=5, sticky="w")
-                act_hi_label.grid(   row=3, column=2, columnspan=1, padx=5, pady=5, sticky="w")
-                act_hi_spinbox.grid( row=3, column=2, columnspan=1, padx=5, pady=5, sticky="w")
-                target_label.grid(   row=4, column=0, columnspan=1, padx=5, pady=5, sticky="w")
-                target_combobox.grid(row=4, column=1, columnspan=2, padx=5, pady=5, sticky="w")
+                mode_label.grid(     row=1, column=2, columnspan=1, padx=5, pady=5, sticky="w")
+                mode_combobox.grid(  row=1, column=3, columnspan=2, padx=5, pady=5, sticky="w")
+                act_lo_label.grid(   row=2, column=0, columnspan=1, padx=5, pady=5, sticky="w")
+                act_lo_spinbox.grid( row=2, column=1, columnspan=1, padx=5, pady=5, sticky="w")
+                act_hi_label.grid(   row=2, column=2, columnspan=1, padx=5, pady=5, sticky="w")
+                act_hi_spinbox.grid( row=2, column=3, columnspan=1, padx=5, pady=5, sticky="w")
+                target_label.grid(   row=3, column=0, columnspan=1, padx=5, pady=5, sticky="w")
+                target_combobox.grid(row=3, column=1, columnspan=2, padx=5, pady=5, sticky="w")
+                min_label.grid(      row=4, column=0, columnspan=1, padx=5, pady=5, sticky="w")
+                min_combobox.grid(   row=4, column=1, columnspan=2, padx=5, pady=5, sticky="w")
+                max_label.grid(      row=4, column=2, columnspan=1, padx=5, pady=5, sticky="w")
+                max_combobox.grid(   row=4, column=3, columnspan=2, padx=5, pady=5, sticky="w")
 
                 self.components.append({
                     'enable': enable_var,
@@ -118,8 +169,8 @@ class AssignsFrame(ttk.Frame):
                     'act_lo': act_lo_var,
                     'act_hi': act_hi_var,
                     'target': target_combobox,
-                    'min': min_var,
-                    'max': max_var
+                    'min': min_combobox,
+                    'max': max_combobox
                 })
 
 # root = tk.Tk()

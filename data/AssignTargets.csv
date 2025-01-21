@@ -1,0 +1,938 @@
+looperIdx,target,minMaxOptions
+0,Track 1 Rec/Play,"OFF,ON"
+1,Track 1 Play/Stop,"OFF,ON"
+2,Track 1 Stop,"OFF,ON"
+3,Track 1 Clear,"OFF,ON"
+4,Track 1 Reverse,"OFF,ON"
+5,Track 1 Un/Redo,"OFF,ON"
+6,Track 1 M.Back,"OFF,ON"
+7,Track 1 R.Back,"OFF,ON"
+8,Track 1 M.Set,"OFF,ON"
+9,Track 1 M.Clear,"OFF,ON"
+10,Track 1 Level,0:1:200
+11,Track 2 Rec/Play,"OFF,ON"
+12,Track 2 Play/Stop,"OFF,ON"
+13,Track 2 Stop,"OFF,ON"
+14,Track 2 Clear,"OFF,ON"
+15,Track 2 Reverse,"OFF,ON"
+16,Track 2 Un/Redo,"OFF,ON"
+17,Track 2 M.Back,"OFF,ON"
+18,Track 2 R.Back,"OFF,ON"
+19,Track 2 M.Set,"OFF,ON"
+20,Track 2 M.Clear,"OFF,ON"
+21,Track 2 Level,0:1:200
+22,Track 3 Rec/Play,"OFF,ON"
+23,Track 3 Play/Stop,"OFF,ON"
+24,Track 3 Stop,"OFF,ON"
+25,Track 3 Clear,"OFF,ON"
+26,Track 3 Reverse,"OFF,ON"
+27,Track 3 Un/Redo,"OFF,ON"
+28,Track 3 M.Back,"OFF,ON"
+29,Track 3 R.Back,"OFF,ON"
+30,Track 3 M.Set,"OFF,ON"
+31,Track 3 M.Clear,"OFF,ON"
+32,Track 3 Level,0:1:200
+33,Track 4 Rec/Play,"OFF,ON"
+34,Track 4 Play/Stop,"OFF,ON"
+35,Track 4 Stop,"OFF,ON"
+36,Track 4 Clear,"OFF,ON"
+37,Track 4 Reverse,"OFF,ON"
+38,Track 4 Un/Redo,"OFF,ON"
+39,Track 4 M.Back,"OFF,ON"
+40,Track 4 R.Back,"OFF,ON"
+41,Track 4 M.Set,"OFF,ON"
+42,Track 4 M.Clear,"OFF,ON"
+43,Track 4 Level,0:1:200
+44,Track 5 Rec/Play,"OFF,ON"
+45,Track 5 Play/Stop,"OFF,ON"
+46,Track 5 Stop,"OFF,ON"
+47,Track 5 Clear,"OFF,ON"
+48,Track 5 Reverse,"OFF,ON"
+49,Track 5 Un/Redo,"OFF,ON"
+50,Track 5 M.Back,"OFF,ON"
+51,Track 5 R.Back,"OFF,ON"
+52,Track 5 M.Set,"OFF,ON"
+53,Track 5 M.Clear,"OFF,ON"
+54,Track 5 Level,0:1:200
+55,Track 6 Rec/Play,"OFF,ON"
+56,Track 6 Play/Stop,"OFF,ON"
+57,Track 6 Stop,"OFF,ON"
+58,Track 6 Clear,"OFF,ON"
+59,Track 6 Reverse,"OFF,ON"
+60,Track 6 Un/Redo,"OFF,ON"
+61,Track 6 M.Back,"OFF,ON"
+62,Track 6 R.Back,"OFF,ON"
+63,Track 6 M.Set,"OFF,ON"
+64,Track 6 M.Clear,"OFF,ON"
+65,Track 6 Level,0:1:200
+66,Cur.Track Rec/Play,"OFF,ON"
+67,Cur.Track Play/Stop,"OFF,ON"
+68,Cur.Track Stop,"OFF,ON"
+69,Cur.Track Clear,"OFF,ON"
+70,Cur.Track Reverse,"OFF,ON"
+71,Cur.Track Un/Redo,"OFF,ON"
+72,Cur.Track M.Back,"OFF,ON"
+73,Cur.Track R.Back,"OFF,ON"
+74,Cur.Track M.Set,"OFF,ON"
+75,Cur.Track M.Clear,"OFF,ON"
+76,Cur.Track Level,0:1:200
+77,Cur. Track Inc,"OFF,ON"
+78,Cur. Track Dec,"OFF,ON"
+79,Cur. Track Num,"Track1,Track2,Track3,Track4,Track5,Track6"
+80,All Start/Stop,"OFF,ON"
+81,Imm All Start/Stop,"OFF,ON"
+82,Tap Tempo,"OFF,ON"
+83,Tempo,40.0:0.1:300
+84,Input Fx,"OFF,ON"
+85,Input Fx Target Inc,"OFF,ON"
+86,Input Fx Target Dec,"OFF,ON"
+87,Input FX Bank Inc,"OFF,ON"
+88,Input FX Bank Dec,"OFF,ON"
+89,Input FX SW Mode,"Toggle,Moment"
+90,Input FX A ,"OFF,ON"
+91,Input FX A Ctl,0:1:100
+92,Input FX A Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+93,Input FX A Type Inc,"OFF,ON"
+94,Input FX A Type Dec,"OFF,ON"
+95,Input FX A SW Mode,"Toggle,Moment"
+96,Input FX A Prm 1,0:1:100
+97,Input FX A Prm 2,0:1:100
+98,Input FX A Prm 3,0:1:100
+99,Input FX A Prm 4,0:1:100
+100,Input FX A SEQ,"OFF,ON"
+101,Input FX A S.Sync,"OFF,ON"
+102,Input FX A S.RTrig,"OFF,ON"
+103,Input FX A S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+104,Input FX A S.Max,1:1:16
+105,Input FX B ,"OFF,ON"
+106,Input FX B Ctl,0:1:100
+107,Input FX B Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+108,Input FX B Type Inc,"OFF,ON"
+109,Input FX B Type Dec,"OFF,ON"
+110,Input FX B SW Mode,"Toggle,Moment"
+111,Input FX B Prm 1,0:1:100
+112,Input FX B Prm 2,0:1:100
+113,Input FX B Prm 3,0:1:100
+114,Input FX B Prm 4,0:1:100
+115,Input FX B SEQ,"OFF,ON"
+116,Input FX B S.Sync,"OFF,ON"
+117,Input FX B S.RTrig,"OFF,ON"
+118,Input FX B S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+119,Input FX B S.Max,1:1:16
+120,Input FX C ,"OFF,ON"
+121,Input FX C Ctl,0:1:100
+122,Input FX C Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+123,Input FX C Type Inc,"OFF,ON"
+124,Input FX C Type Dec,"OFF,ON"
+125,Input FX C SW Mode,"Toggle,Moment"
+126,Input FX C Prm 1,0:1:100
+127,Input FX C Prm 2,0:1:100
+128,Input FX C Prm 3,0:1:100
+129,Input FX C Prm 4,0:1:100
+130,Input FX C SEQ,"OFF,ON"
+131,Input FX C S.Sync,"OFF,ON"
+132,Input FX C S.RTrig,"OFF,ON"
+133,Input FX C S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+134,Input FX C S.Max,1:1:16
+135,Input FX D ,"OFF,ON"
+136,Input FX D Ctl,0:1:100
+137,Input FX D Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+138,Input FX D Type Inc,"OFF,ON"
+139,Input FX D Type Dec,"OFF,ON"
+140,Input FX D SW Mode,"Toggle,Moment"
+141,Input FX D Prm 1,0:1:100
+142,Input FX D Prm 2,0:1:100
+143,Input FX D Prm 3,0:1:100
+144,Input FX D Prm 4,0:1:100
+145,Input FX D SEQ,"OFF,ON"
+146,Input FX D S.Sync,"OFF,ON"
+147,Input FX D S.RTrig,"OFF,ON"
+148,Input FX D S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+149,Input FX D S.Max,1:1:16
+150,Input FX AA ,"OFF,ON"
+151,Input FX AA Ctl,0:1:100
+152,Input FX AA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+153,Input FX AA Type Inc,"OFF,ON"
+154,Input FX AA Type Dec,"OFF,ON"
+155,Input FX AA SW Mode,"Toggle,Moment"
+156,Input FX AA Prm 1,0:1:100
+157,Input FX AA Prm 2,0:1:100
+158,Input FX AA Prm 3,0:1:100
+159,Input FX AA Prm 4,0:1:100
+160,Input FX AA SEQ,"OFF,ON"
+161,Input FX AA S.Sync,"OFF,ON"
+162,Input FX AA S.RTrig,"OFF,ON"
+163,Input FX AA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+164,Input FX AA S.Max,1:1:16
+165,Input FX AB ,"OFF,ON"
+166,Input FX AB Ctl,0:1:100
+167,Input FX AB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+168,Input FX AB Type Inc,"OFF,ON"
+169,Input FX AB Type Dec,"OFF,ON"
+170,Input FX AB SW Mode,"Toggle,Moment"
+171,Input FX AB Prm 1,0:1:100
+172,Input FX AB Prm 2,0:1:100
+173,Input FX AB Prm 3,0:1:100
+174,Input FX AB Prm 4,0:1:100
+175,Input FX AB SEQ,"OFF,ON"
+176,Input FX AB S.Sync,"OFF,ON"
+177,Input FX AB S.RTrig,"OFF,ON"
+178,Input FX AB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+179,Input FX AB S.Max,1:1:16
+180,Input FX AC ,"OFF,ON"
+181,Input FX AC Ctl,0:1:100
+182,Input FX AC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+183,Input FX AC Type Inc,"OFF,ON"
+184,Input FX AC Type Dec,"OFF,ON"
+185,Input FX AC SW Mode,"Toggle,Moment"
+186,Input FX AC Prm 1,0:1:100
+187,Input FX AC Prm 2,0:1:100
+188,Input FX AC Prm 3,0:1:100
+189,Input FX AC Prm 4,0:1:100
+190,Input FX AC SEQ,"OFF,ON"
+191,Input FX AC S.Sync,"OFF,ON"
+192,Input FX AC S.RTrig,"OFF,ON"
+193,Input FX AC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+194,Input FX AC S.Max,1:1:16
+195,Input FX AD ,"OFF,ON"
+196,Input FX AD Ctl,0:1:100
+197,Input FX AD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+198,Input FX AD Type Inc,"OFF,ON"
+199,Input FX AD Type Dec,"OFF,ON"
+200,Input FX AD SW Mode,"Toggle,Moment"
+201,Input FX AD Prm 1,0:1:100
+202,Input FX AD Prm 2,0:1:100
+203,Input FX AD Prm 3,0:1:100
+204,Input FX AD Prm 4,0:1:100
+205,Input FX AD SEQ,"OFF,ON"
+206,Input FX AD S.Sync,"OFF,ON"
+207,Input FX AD S.RTrig,"OFF,ON"
+208,Input FX AD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+209,Input FX AD S.Max,1:1:16
+210,Input FX BA ,"OFF,ON"
+211,Input FX BA Ctl,0:1:100
+212,Input FX BA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+213,Input FX BA Type Inc,"OFF,ON"
+214,Input FX BA Type Dec,"OFF,ON"
+215,Input FX BA SW Mode,"Toggle,Moment"
+216,Input FX BA Prm 1,0:1:100
+217,Input FX BA Prm 2,0:1:100
+218,Input FX BA Prm 3,0:1:100
+219,Input FX BA Prm 4,0:1:100
+220,Input FX BA SEQ,"OFF,ON"
+221,Input FX BA S.Sync,"OFF,ON"
+222,Input FX BA S.RTrig,"OFF,ON"
+223,Input FX BA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+224,Input FX BA S.Max,1:1:16
+225,Input FX BB ,"OFF,ON"
+226,Input FX BB Ctl,0:1:100
+227,Input FX BB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+228,Input FX BB Type Inc,"OFF,ON"
+229,Input FX BB Type Dec,"OFF,ON"
+230,Input FX BB SW Mode,"Toggle,Moment"
+231,Input FX BB Prm 1,0:1:100
+232,Input FX BB Prm 2,0:1:100
+233,Input FX BB Prm 3,0:1:100
+234,Input FX BB Prm 4,0:1:100
+235,Input FX BB SEQ,"OFF,ON"
+236,Input FX BB S.Sync,"OFF,ON"
+237,Input FX BB S.RTrig,"OFF,ON"
+238,Input FX BB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+239,Input FX BB S.Max,1:1:16
+240,Input FX BC ,"OFF,ON"
+241,Input FX BC Ctl,0:1:100
+242,Input FX BC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+243,Input FX BC Type Inc,"OFF,ON"
+244,Input FX BC Type Dec,"OFF,ON"
+245,Input FX BC SW Mode,"Toggle,Moment"
+246,Input FX BC Prm 1,0:1:100
+247,Input FX BC Prm 2,0:1:100
+248,Input FX BC Prm 3,0:1:100
+249,Input FX BC Prm 4,0:1:100
+250,Input FX BC SEQ,"OFF,ON"
+251,Input FX BC S.Sync,"OFF,ON"
+252,Input FX BC S.RTrig,"OFF,ON"
+253,Input FX BC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+254,Input FX BC S.Max,1:1:16
+255,Input FX BD ,"OFF,ON"
+256,Input FX BD Ctl,0:1:100
+257,Input FX BD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+258,Input FX BD Type Inc,"OFF,ON"
+259,Input FX BD Type Dec,"OFF,ON"
+260,Input FX BD SW Mode,"Toggle,Moment"
+261,Input FX BD Prm 1,0:1:100
+262,Input FX BD Prm 2,0:1:100
+263,Input FX BD Prm 3,0:1:100
+264,Input FX BD Prm 4,0:1:100
+265,Input FX BD SEQ,"OFF,ON"
+266,Input FX BD S.Sync,"OFF,ON"
+267,Input FX BD S.RTrig,"OFF,ON"
+268,Input FX BD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+269,Input FX BD S.Max,1:1:16
+270,Input FX CA ,"OFF,ON"
+271,Input FX CA Ctl,0:1:100
+272,Input FX CA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+273,Input FX CA Type Inc,"OFF,ON"
+274,Input FX CA Type Dec,"OFF,ON"
+275,Input FX CA SW Mode,"Toggle,Moment"
+276,Input FX CA Prm 1,0:1:100
+277,Input FX CA Prm 2,0:1:100
+278,Input FX CA Prm 3,0:1:100
+279,Input FX CA Prm 4,0:1:100
+280,Input FX CA SEQ,"OFF,ON"
+281,Input FX CA S.Sync,"OFF,ON"
+282,Input FX CA S.RTrig,"OFF,ON"
+283,Input FX CA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+284,Input FX CA S.Max,1:1:16
+285,Input FX CB ,"OFF,ON"
+286,Input FX CB Ctl,0:1:100
+287,Input FX CB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+288,Input FX CB Type Inc,"OFF,ON"
+289,Input FX CB Type Dec,"OFF,ON"
+290,Input FX CB SW Mode,"Toggle,Moment"
+291,Input FX CB Prm 1,0:1:100
+292,Input FX CB Prm 2,0:1:100
+293,Input FX CB Prm 3,0:1:100
+294,Input FX CB Prm 4,0:1:100
+295,Input FX CB SEQ,"OFF,ON"
+296,Input FX CB S.Sync,"OFF,ON"
+297,Input FX CB S.RTrig,"OFF,ON"
+298,Input FX CB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+299,Input FX CB S.Max,1:1:16
+300,Input FX CC ,"OFF,ON"
+301,Input FX CC Ctl,0:1:100
+302,Input FX CC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+303,Input FX CC Type Inc,"OFF,ON"
+304,Input FX CC Type Dec,"OFF,ON"
+305,Input FX CC SW Mode,"Toggle,Moment"
+306,Input FX CC Prm 1,0:1:100
+307,Input FX CC Prm 2,0:1:100
+308,Input FX CC Prm 3,0:1:100
+309,Input FX CC Prm 4,0:1:100
+310,Input FX CC SEQ,"OFF,ON"
+311,Input FX CC S.Sync,"OFF,ON"
+312,Input FX CC S.RTrig,"OFF,ON"
+313,Input FX CC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+314,Input FX CC S.Max,1:1:16
+315,Input FX CD ,"OFF,ON"
+316,Input FX CD Ctl,0:1:100
+317,Input FX CD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+318,Input FX CD Type Inc,"OFF,ON"
+319,Input FX CD Type Dec,"OFF,ON"
+320,Input FX CD SW Mode,"Toggle,Moment"
+321,Input FX CD Prm 1,0:1:100
+322,Input FX CD Prm 2,0:1:100
+323,Input FX CD Prm 3,0:1:100
+324,Input FX CD Prm 4,0:1:100
+325,Input FX CD SEQ,"OFF,ON"
+326,Input FX CD S.Sync,"OFF,ON"
+327,Input FX CD S.RTrig,"OFF,ON"
+328,Input FX CD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+329,Input FX CD S.Max,1:1:16
+330,Input FX DA ,"OFF,ON"
+331,Input FX DA Ctl,0:1:100
+332,Input FX DA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+333,Input FX DA Type Inc,"OFF,ON"
+334,Input FX DA Type Dec,"OFF,ON"
+335,Input FX DA SW Mode,"Toggle,Moment"
+336,Input FX DA Prm 1,0:1:100
+337,Input FX DA Prm 2,0:1:100
+338,Input FX DA Prm 3,0:1:100
+339,Input FX DA Prm 4,0:1:100
+340,Input FX DA SEQ,"OFF,ON"
+341,Input FX DA S.Sync,"OFF,ON"
+342,Input FX DA S.RTrig,"OFF,ON"
+343,Input FX DA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+344,Input FX DA S.Max,1:1:16
+345,Input FX DB ,"OFF,ON"
+346,Input FX DB Ctl,0:1:100
+347,Input FX DB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+348,Input FX DB Type Inc,"OFF,ON"
+349,Input FX DB Type Dec,"OFF,ON"
+350,Input FX DB SW Mode,"Toggle,Moment"
+351,Input FX DB Prm 1,0:1:100
+352,Input FX DB Prm 2,0:1:100
+353,Input FX DB Prm 3,0:1:100
+354,Input FX DB Prm 4,0:1:100
+355,Input FX DB SEQ,"OFF,ON"
+356,Input FX DB S.Sync,"OFF,ON"
+357,Input FX DB S.RTrig,"OFF,ON"
+358,Input FX DB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+359,Input FX DB S.Max,1:1:16
+360,Input FX DC ,"OFF,ON"
+361,Input FX DC Ctl,0:1:100
+362,Input FX DC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+363,Input FX DC Type Inc,"OFF,ON"
+364,Input FX DC Type Dec,"OFF,ON"
+365,Input FX DC SW Mode,"Toggle,Moment"
+366,Input FX DC Prm 1,0:1:100
+367,Input FX DC Prm 2,0:1:100
+368,Input FX DC Prm 3,0:1:100
+369,Input FX DC Prm 4,0:1:100
+370,Input FX DC SEQ,"OFF,ON"
+371,Input FX DC S.Sync,"OFF,ON"
+372,Input FX DC S.RTrig,"OFF,ON"
+373,Input FX DC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+374,Input FX DC S.Max,1:1:16
+375,Input FX DD ,"OFF,ON"
+376,Input FX DD Ctl,0:1:100
+377,Input FX DD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+378,Input FX DD Type Inc,"OFF,ON"
+379,Input FX DD Type Dec,"OFF,ON"
+380,Input FX DD SW Mode,"Toggle,Moment"
+381,Input FX DD Prm 1,0:1:100
+382,Input FX DD Prm 2,0:1:100
+383,Input FX DD Prm 3,0:1:100
+384,Input FX DD Prm 4,0:1:100
+385,Input FX DD SEQ,"OFF,ON"
+386,Input FX DD S.Sync,"OFF,ON"
+387,Input FX DD S.RTrig,"OFF,ON"
+388,Input FX DD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+389,Input FX DD S.Max,1:1:16
+390,Input FX CR ,"OFF,ON"
+391,Input FX CR Ctl,0:1:100
+392,Input FX CR Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+393,Input FX CR Type Inc,"OFF,ON"
+394,Input FX CR Type Dec,"OFF,ON"
+395,Input FX CR SW Mode,"Toggle,Moment"
+396,Input FX CR Prm 1,0:1:100
+397,Input FX CR Prm 2,0:1:100
+398,Input FX CR Prm 3,0:1:100
+399,Input FX CR Prm 4,0:1:100
+400,Input FX CR SEQ,"OFF,ON"
+401,Input FX CR S.Sync,"OFF,ON"
+402,Input FX CR S.RTrig,"OFF,ON"
+403,Input FX CR S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+404,Input FX CR S.Max,1:1:16
+405,Track FX  ,"OFF,ON"
+406,Track FX  Tgt Inc,"OFF,ON"
+407,Track FX  Tgt Dec,"OFF,ON"
+408,Track FX  Bnk Inc,"OFF,ON"
+409,Track FX  Bnk Dec,"OFF,ON"
+410,Track FX  SW Mode,"Toggle,Moment"
+411,Track FX A ,"OFF,ON"
+412,Track FX A Ctl,0:1:100
+413,Track FX A Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+414,Track FX A Type Inc,"OFF,ON"
+415,Track FX A Type Dec,"OFF,ON"
+416,Track FX A SW Mode,"Toggle,Moment"
+417,Track FX A Prm 1,0:1:100
+418,Track FX A Prm 2,0:1:100
+419,Track FX A Prm 3,0:1:100
+420,Track FX A Prm 4,0:1:100
+421,Track FX A SEQ,"OFF,ON"
+422,Track FX A S.Sync,"OFF,ON"
+423,Track FX A S.RTrig,"OFF,ON"
+424,Track FX A S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+425,Track FX A S.Max,1:1:16
+426,Track FX B ,"OFF,ON"
+427,Track FX B Ctl,0:1:100
+428,Track FX B Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+429,Track FX B Type Inc,"OFF,ON"
+430,Track FX B Type Dec,"OFF,ON"
+431,Track FX B SW Mode,"Toggle,Moment"
+432,Track FX B Prm 1,0:1:100
+433,Track FX B Prm 2,0:1:100
+434,Track FX B Prm 3,0:1:100
+435,Track FX B Prm 4,0:1:100
+436,Track FX B SEQ,"OFF,ON"
+437,Track FX B S.Sync,"OFF,ON"
+438,Track FX B S.RTrig,"OFF,ON"
+439,Track FX B S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+440,Track FX B S.Max,1:1:16
+441,Track FX C ,"OFF,ON"
+442,Track FX C Ctl,0:1:100
+443,Track FX C Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+444,Track FX C Type Inc,"OFF,ON"
+445,Track FX C Type Dec,"OFF,ON"
+446,Track FX C SW Mode,"Toggle,Moment"
+447,Track FX C Prm 1,0:1:100
+448,Track FX C Prm 2,0:1:100
+449,Track FX C Prm 3,0:1:100
+450,Track FX C Prm 4,0:1:100
+451,Track FX C SEQ,"OFF,ON"
+452,Track FX C S.Sync,"OFF,ON"
+453,Track FX C S.RTrig,"OFF,ON"
+454,Track FX C S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+455,Track FX C S.Max,1:1:16
+456,Track FX D ,"OFF,ON"
+457,Track FX D Ctl,0:1:100
+458,Track FX D Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+459,Track FX D Type Inc,"OFF,ON"
+460,Track FX D Type Dec,"OFF,ON"
+461,Track FX D SW Mode,"Toggle,Moment"
+462,Track FX D Prm 1,0:1:100
+463,Track FX D Prm 2,0:1:100
+464,Track FX D Prm 3,0:1:100
+465,Track FX D Prm 4,0:1:100
+466,Track FX D SEQ,"OFF,ON"
+467,Track FX D S.Sync,"OFF,ON"
+468,Track FX D S.RTrig,"OFF,ON"
+469,Track FX D S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+470,Track FX D S.Max,1:1:16
+471,Track FX AA ,"OFF,ON"
+472,Track FX AA Ctl,0:1:100
+473,Track FX AA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+474,Track FX AA Type Inc,"OFF,ON"
+475,Track FX AA Type Dec,"OFF,ON"
+476,Track FX AA SW Mode,"Toggle,Moment"
+477,Track FX AA Prm 1,0:1:100
+478,Track FX AA Prm 2,0:1:100
+479,Track FX AA Prm 3,0:1:100
+480,Track FX AA Prm 4,0:1:100
+481,Track FX AA SEQ,"OFF,ON"
+482,Track FX AA S.Sync,"OFF,ON"
+483,Track FX AA S.RTrig,"OFF,ON"
+484,Track FX AA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+485,Track FX AA S.Max,1:1:16
+486,Track FX AB ,"OFF,ON"
+487,Track FX AB Ctl,0:1:100
+488,Track FX AB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+489,Track FX AB Type Inc,"OFF,ON"
+490,Track FX AB Type Dec,"OFF,ON"
+491,Track FX AB SW Mode,"Toggle,Moment"
+492,Track FX AB Prm 1,0:1:100
+493,Track FX AB Prm 2,0:1:100
+494,Track FX AB Prm 3,0:1:100
+495,Track FX AB Prm 4,0:1:100
+496,Track FX AB SEQ,"OFF,ON"
+497,Track FX AB S.Sync,"OFF,ON"
+498,Track FX AB S.RTrig,"OFF,ON"
+499,Track FX AB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+500,Track FX AB S.Max,1:1:16
+501,Track FX AC ,"OFF,ON"
+502,Track FX AC Ctl,0:1:100
+503,Track FX AC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+504,Track FX AC Type Inc,"OFF,ON"
+505,Track FX AC Type Dec,"OFF,ON"
+506,Track FX AC SW Mode,"Toggle,Moment"
+507,Track FX AC Prm 1,0:1:100
+508,Track FX AC Prm 2,0:1:100
+509,Track FX AC Prm 3,0:1:100
+510,Track FX AC Prm 4,0:1:100
+511,Track FX AC SEQ,"OFF,ON"
+512,Track FX AC S.Sync,"OFF,ON"
+513,Track FX AC S.RTrig,"OFF,ON"
+514,Track FX AC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+515,Track FX AC S.Max,1:1:16
+516,Track FX AD ,"OFF,ON"
+517,Track FX AD Ctl,0:1:100
+518,Track FX AD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+519,Track FX AD Type Inc,"OFF,ON"
+520,Track FX AD Type Dec,"OFF,ON"
+521,Track FX AD SW Mode,"Toggle,Moment"
+522,Track FX AD Prm 1,0:1:100
+523,Track FX AD Prm 2,0:1:100
+524,Track FX AD Prm 3,0:1:100
+525,Track FX AD Prm 4,0:1:100
+526,Track FX AD SEQ,"OFF,ON"
+527,Track FX AD S.Sync,"OFF,ON"
+528,Track FX AD S.RTrig,"OFF,ON"
+529,Track FX AD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+530,Track FX AD S.Max,1:1:16
+531,Track FX BA ,"OFF,ON"
+532,Track FX BA Ctl,0:1:100
+533,Track FX BA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+534,Track FX BA Type Inc,"OFF,ON"
+535,Track FX BA Type Dec,"OFF,ON"
+536,Track FX BA SW Mode,"Toggle,Moment"
+537,Track FX BA Prm 1,0:1:100
+538,Track FX BA Prm 2,0:1:100
+539,Track FX BA Prm 3,0:1:100
+540,Track FX BA Prm 4,0:1:100
+541,Track FX BA SEQ,"OFF,ON"
+542,Track FX BA S.Sync,"OFF,ON"
+543,Track FX BA S.RTrig,"OFF,ON"
+544,Track FX BA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+545,Track FX BA S.Max,1:1:16
+546,Track FX BB ,"OFF,ON"
+547,Track FX BB Ctl,0:1:100
+548,Track FX BB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+549,Track FX BB Type Inc,"OFF,ON"
+550,Track FX BB Type Dec,"OFF,ON"
+551,Track FX BB SW Mode,"Toggle,Moment"
+552,Track FX BB Prm 1,0:1:100
+553,Track FX BB Prm 2,0:1:100
+554,Track FX BB Prm 3,0:1:100
+555,Track FX BB Prm 4,0:1:100
+556,Track FX BB SEQ,"OFF,ON"
+557,Track FX BB S.Sync,"OFF,ON"
+558,Track FX BB S.RTrig,"OFF,ON"
+559,Track FX BB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+560,Track FX BB S.Max,1:1:16
+561,Track FX BC ,"OFF,ON"
+562,Track FX BC Ctl,0:1:100
+563,Track FX BC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+564,Track FX BC Type Inc,"OFF,ON"
+565,Track FX BC Type Dec,"OFF,ON"
+566,Track FX BC SW Mode,"Toggle,Moment"
+567,Track FX BC Prm 1,0:1:100
+568,Track FX BC Prm 2,0:1:100
+569,Track FX BC Prm 3,0:1:100
+570,Track FX BC Prm 4,0:1:100
+571,Track FX BC SEQ,"OFF,ON"
+572,Track FX BC S.Sync,"OFF,ON"
+573,Track FX BC S.RTrig,"OFF,ON"
+574,Track FX BC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+575,Track FX BC S.Max,1:1:16
+576,Track FX BD ,"OFF,ON"
+577,Track FX BD Ctl,0:1:100
+578,Track FX BD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+579,Track FX BD Type Inc,"OFF,ON"
+580,Track FX BD Type Dec,"OFF,ON"
+581,Track FX BD SW Mode,"Toggle,Moment"
+582,Track FX BD Prm 1,0:1:100
+583,Track FX BD Prm 2,0:1:100
+584,Track FX BD Prm 3,0:1:100
+585,Track FX BD Prm 4,0:1:100
+586,Track FX BD SEQ,"OFF,ON"
+587,Track FX BD S.Sync,"OFF,ON"
+588,Track FX BD S.RTrig,"OFF,ON"
+589,Track FX BD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+590,Track FX BD S.Max,1:1:16
+591,Track FX CA ,"OFF,ON"
+592,Track FX CA Ctl,0:1:100
+593,Track FX CA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+594,Track FX CA Type Inc,"OFF,ON"
+595,Track FX CA Type Dec,"OFF,ON"
+596,Track FX CA SW Mode,"Toggle,Moment"
+597,Track FX CA Prm 1,0:1:100
+598,Track FX CA Prm 2,0:1:100
+599,Track FX CA Prm 3,0:1:100
+600,Track FX CA Prm 4,0:1:100
+601,Track FX CA SEQ,"OFF,ON"
+602,Track FX CA S.Sync,"OFF,ON"
+603,Track FX CA S.RTrig,"OFF,ON"
+604,Track FX CA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+605,Track FX CA S.Max,1:1:16
+606,Track FX CB ,"OFF,ON"
+607,Track FX CB Ctl,0:1:100
+608,Track FX CB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+609,Track FX CB Type Inc,"OFF,ON"
+610,Track FX CB Type Dec,"OFF,ON"
+611,Track FX CB SW Mode,"Toggle,Moment"
+612,Track FX CB Prm 1,0:1:100
+613,Track FX CB Prm 2,0:1:100
+614,Track FX CB Prm 3,0:1:100
+615,Track FX CB Prm 4,0:1:100
+616,Track FX CB SEQ,"OFF,ON"
+617,Track FX CB S.Sync,"OFF,ON"
+618,Track FX CB S.RTrig,"OFF,ON"
+619,Track FX CB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+620,Track FX CB S.Max,1:1:16
+621,Track FX CC ,"OFF,ON"
+622,Track FX CC Ctl,0:1:100
+623,Track FX CC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+624,Track FX CC Type Inc,"OFF,ON"
+625,Track FX CC Type Dec,"OFF,ON"
+626,Track FX CC SW Mode,"Toggle,Moment"
+627,Track FX CC Prm 1,0:1:100
+628,Track FX CC Prm 2,0:1:100
+629,Track FX CC Prm 3,0:1:100
+630,Track FX CC Prm 4,0:1:100
+631,Track FX CC SEQ,"OFF,ON"
+632,Track FX CC S.Sync,"OFF,ON"
+633,Track FX CC S.RTrig,"OFF,ON"
+634,Track FX CC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+635,Track FX CC S.Max,1:1:16
+636,Track FX CD ,"OFF,ON"
+637,Track FX CD Ctl,0:1:100
+638,Track FX CD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+639,Track FX CD Type Inc,"OFF,ON"
+640,Track FX CD Type Dec,"OFF,ON"
+641,Track FX CD SW Mode,"Toggle,Moment"
+642,Track FX CD Prm 1,0:1:100
+643,Track FX CD Prm 2,0:1:100
+644,Track FX CD Prm 3,0:1:100
+645,Track FX CD Prm 4,0:1:100
+646,Track FX CD SEQ,"OFF,ON"
+647,Track FX CD S.Sync,"OFF,ON"
+648,Track FX CD S.RTrig,"OFF,ON"
+649,Track FX CD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+650,Track FX CD S.Max,1:1:16
+651,Track FX DA ,"OFF,ON"
+652,Track FX DA Ctl,0:1:100
+653,Track FX DA Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+654,Track FX DA Type Inc,"OFF,ON"
+655,Track FX DA Type Dec,"OFF,ON"
+656,Track FX DA SW Mode,"Toggle,Moment"
+657,Track FX DA Prm 1,0:1:100
+658,Track FX DA Prm 2,0:1:100
+659,Track FX DA Prm 3,0:1:100
+660,Track FX DA Prm 4,0:1:100
+661,Track FX DA SEQ,"OFF,ON"
+662,Track FX DA S.Sync,"OFF,ON"
+663,Track FX DA S.RTrig,"OFF,ON"
+664,Track FX DA S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+665,Track FX DA S.Max,1:1:16
+666,Track FX DB ,"OFF,ON"
+667,Track FX DB Ctl,0:1:100
+668,Track FX DB Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+669,Track FX DB Type Inc,"OFF,ON"
+670,Track FX DB Type Dec,"OFF,ON"
+671,Track FX DB SW Mode,"Toggle,Moment"
+672,Track FX DB Prm 1,0:1:100
+673,Track FX DB Prm 2,0:1:100
+674,Track FX DB Prm 3,0:1:100
+675,Track FX DB Prm 4,0:1:100
+676,Track FX DB SEQ,"OFF,ON"
+677,Track FX DB S.Sync,"OFF,ON"
+678,Track FX DB S.RTrig,"OFF,ON"
+679,Track FX DB S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+680,Track FX DB S.Max,1:1:16
+681,Track FX DC ,"OFF,ON"
+682,Track FX DC Ctl,0:1:100
+683,Track FX DC Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+684,Track FX DC Type Inc,"OFF,ON"
+685,Track FX DC Type Dec,"OFF,ON"
+686,Track FX DC SW Mode,"Toggle,Moment"
+687,Track FX DC Prm 1,0:1:100
+688,Track FX DC Prm 2,0:1:100
+689,Track FX DC Prm 3,0:1:100
+690,Track FX DC Prm 4,0:1:100
+691,Track FX DC SEQ,"OFF,ON"
+692,Track FX DC S.Sync,"OFF,ON"
+693,Track FX DC S.RTrig,"OFF,ON"
+694,Track FX DC S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+695,Track FX DC S.Max,1:1:16
+696,Track FX DD ,"OFF,ON"
+697,Track FX DD Ctl,0:1:100
+698,Track FX DD Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+699,Track FX DD Type Inc,"OFF,ON"
+700,Track FX DD Type Dec,"OFF,ON"
+701,Track FX DD SW Mode,"Toggle,Moment"
+702,Track FX DD Prm 1,0:1:100
+703,Track FX DD Prm 2,0:1:100
+704,Track FX DD Prm 3,0:1:100
+705,Track FX DD Prm 4,0:1:100
+706,Track FX DD SEQ,"OFF,ON"
+707,Track FX DD S.Sync,"OFF,ON"
+708,Track FX DD S.RTrig,"OFF,ON"
+709,Track FX DD S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+710,Track FX DD S.Max,1:1:16
+711,Track FX CR ,"OFF,ON"
+712,Track FX CR Ctl,0:1:100
+713,Track FX CR Type,"LPF,BPF,HPF,Phaser,Franger,Synth,LoFi,Radio,RingMod,G2B,Sustainer,AutoRiff,SlowGear,Transpose,PitchBend,Robot,Electric,HrmManual,HrmAuto(M),Vocoder,OscVoc(M),OscBot,PreAmp,Dist,Dynamics,EQ,Isolator,Octave,AutoPan,ManualPan,StereoEnhance,Tremolo,Vibrato,PatternSlicer,StepSlicer,Delay,PanningDelay,ReverseDelay,ModDelay,TapeEcho1,TapeEcho2,GnrDelay,Warp,Twist,Roll1,Roll2,Freeze,Chorus,Reverb,GateReverb,ReverseReverb"
+714,Track FX CR Type Inc,"OFF,ON"
+715,Track FX CR Type Dec,"OFF,ON"
+716,Track FX CR SW Mode,"Toggle,Moment"
+717,Track FX CR Prm 1,0:1:100
+718,Track FX CR Prm 2,0:1:100
+719,Track FX CR Prm 3,0:1:100
+720,Track FX CR Prm 4,0:1:100
+721,Track FX CR SEQ,"OFF,ON"
+722,Track FX CR S.Sync,"OFF,ON"
+723,Track FX CR S.RTrig,"OFF,ON"
+724,Track FX CR S.Rate,"OFF,4Meas,2Meas,1Meas,1/2,1/4d,1/2t,1/4,1/8d,1/4t,1/8,1/16d,1/8t,1/16,1/32,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+725,Track FX CR S.Max,1:1:16
+726,Rhythm Start/Stop,"OFF,ON"
+727,Rhythm Start,"OFF,ON"
+728,Rhythm Stop,"OFF,ON"
+729,Rhythm Level,0:1:200
+730,Mic In Mute,"OFF,ON"
+731,Mic 1 In Mute,"OFF,ON"
+732,Mic 2 In Mute,"OFF,ON"
+733,Track 1 Fader,0:1:255
+734,Track 1 1Shot,"OFF,ON"
+735,Track 1 Pan,"L50,L49,L48,L47,L46,L45,L44,L43,L42,L41,L40,L39,L38,L37,L36,L35,L34,L33,L32,L31,L30,L29,L28,L27,L26,L25,L24,L23,L22,L21,L20,L19,L18,L17,L16,L15,L14,L13,L12,L11,L10,L9,L8,L7,L6,L5,L4,L3,L2,L1,Center,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50"
+736,Track 1 FX,"OFF,ON"
+737,Track 1 Speed,"Half,Normal,Double"
+738,Track 1 Bnc In,"OFF,ON"
+739,Track 2 Fader,0:1:255
+740,Track 2 1Shot,"OFF,ON"
+741,Track 2 Pan,"L50,L49,L48,L47,L46,L45,L44,L43,L42,L41,L40,L39,L38,L37,L36,L35,L34,L33,L32,L31,L30,L29,L28,L27,L26,L25,L24,L23,L22,L21,L20,L19,L18,L17,L16,L15,L14,L13,L12,L11,L10,L9,L8,L7,L6,L5,L4,L3,L2,L1,Center,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50"
+742,Track 2 FX,"OFF,ON"
+743,Track 2 Speed,"Half,Normal,Double"
+744,Track 2 Bnc In,"OFF,ON"
+745,Track 3 Fader,0:1:255
+746,Track 3 1Shot,"OFF,ON"
+747,Track 3 Pan,"L50,L49,L48,L47,L46,L45,L44,L43,L42,L41,L40,L39,L38,L37,L36,L35,L34,L33,L32,L31,L30,L29,L28,L27,L26,L25,L24,L23,L22,L21,L20,L19,L18,L17,L16,L15,L14,L13,L12,L11,L10,L9,L8,L7,L6,L5,L4,L3,L2,L1,Center,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50"
+748,Track 3 FX,"OFF,ON"
+749,Track 3 Speed,"Half,Normal,Double"
+750,Track 3 Bnc In,"OFF,ON"
+751,Track 4 Fader,0:1:255
+752,Track 4 1Shot,"OFF,ON"
+753,Track 4 Pan,"L50,L49,L48,L47,L46,L45,L44,L43,L42,L41,L40,L39,L38,L37,L36,L35,L34,L33,L32,L31,L30,L29,L28,L27,L26,L25,L24,L23,L22,L21,L20,L19,L18,L17,L16,L15,L14,L13,L12,L11,L10,L9,L8,L7,L6,L5,L4,L3,L2,L1,Center,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50"
+754,Track 4 FX,"OFF,ON"
+755,Track 4 Speed,"Half,Normal,Double"
+756,Track 4 Bnc In,"OFF,ON"
+757,Track 5 Fader,0:1:255
+758,Track 5 1Shot,"OFF,ON"
+759,Track 5 Pan,"L50,L49,L48,L47,L46,L45,L44,L43,L42,L41,L40,L39,L38,L37,L36,L35,L34,L33,L32,L31,L30,L29,L28,L27,L26,L25,L24,L23,L22,L21,L20,L19,L18,L17,L16,L15,L14,L13,L12,L11,L10,L9,L8,L7,L6,L5,L4,L3,L2,L1,Center,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50"
+760,Track 5 FX,"OFF,ON"
+761,Track 5 Speed,"Half,Normal,Double"
+762,Track 5 Bnc In,"OFF,ON"
+763,Track 6 Fader,0:1:255
+764,Track 6 1Shot,"OFF,ON"
+765,Track 6 Pan,"L50,L49,L48,L47,L46,L45,L44,L43,L42,L41,L40,L39,L38,L37,L36,L35,L34,L33,L32,L31,L30,L29,L28,L27,L26,L25,L24,L23,L22,L21,L20,L19,L18,L17,L16,L15,L14,L13,L12,L11,L10,L9,L8,L7,L6,L5,L4,L3,L2,L1,Center,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50"
+766,Track 6 FX,"OFF,ON"
+767,Track 6 Speed,"Half,Normal,Double"
+768,Track 6 Bnc In,"OFF,ON"
+769,Dub Mode,"Overdub,Replace1,Replace2"
+770,Auto Rec,"OFF,ON"
+771,Bounce,"OFF,ON"
+772,Rhythm Vari,"A,B,C,D"
+773,Rhythm Kit,"Studio,Live,Light,Heavy,Rock,Metal,JazzBrush,Cajon,Drum&Bass,R&B,Dance,Techno,Dance Beats,Hip Hop,808+909"
+774,Mic 1 Level,0:1:200
+775,Mic 2 Level,0:1:200
+776,Inst 1-L Level,0:1:200
+777,Inst 1-L Mute,"OFF,ON"
+778,Inst 1-R Level,0:1:200
+779,Inst 1-R Mute,"OFF,ON"
+780,Inst 2-L Level,0:1:200
+781,Inst 2-L Mute,"OFF,ON"
+782,Inst 2-R Level,0:1:200
+783,Inst 2-R Mute,"OFF,ON"
+784,Loop Level,0:1:200
+785,Main-L Level,0:1:200
+786,Main-R Level,0:1:200
+787,Sub1-L Level,0:1:200
+788,Sub1-R Level,0:1:200
+789,Sub2-L Level,0:1:200
+790,Sub2-R Level,0:1:200
+791,Phones Level,0:1:200
+792,Master Level,0:1:200
+793,Inst 1 Gain,"OFF,ON"
+794,Inst 2 Gain,"OFF,ON"
+795,EQ Mic 1,"OFF,ON"
+796,EQ Mic 2,"OFF,ON"
+797,EQ Inst1-L,"OFF,ON"
+798,EQ Inst1-R,"OFF,ON"
+799,EQ Inst2-L,"OFF,ON"
+800,EQ Inst2-R,"OFF,ON"
+801,Input Thru,"OFF,ON"
+802,EQ Main-L,"OFF,ON"
+803,EQ Main-R,"OFF,ON"
+804,EQ Sub1-L,"OFF,ON"
+805,EQ Sub1-R,"OFF,ON"
+806,EQ Sub2-L,"OFF,ON"
+807,EQ Sub2-R,"OFF,ON"
+808,Pedal Mode,"Mode 1,Mode2, Mode3"
+809,Midi CC#000,0:1:127
+810,Midi CC#001,0:1:127
+811,Midi CC#002,0:1:127
+812,Midi CC#003,0:1:127
+813,Midi CC#004,0:1:127
+814,Midi CC#005,0:1:127
+815,Midi CC#006,0:1:127
+816,Midi CC#007,0:1:127
+817,Midi CC#008,0:1:127
+818,Midi CC#009,0:1:127
+819,Midi CC#010,0:1:127
+820,Midi CC#011,0:1:127
+821,Midi CC#012,0:1:127
+822,Midi CC#013,0:1:127
+823,Midi CC#014,0:1:127
+824,Midi CC#015,0:1:127
+825,Midi CC#016,0:1:127
+826,Midi CC#017,0:1:127
+827,Midi CC#018,0:1:127
+828,Midi CC#019,0:1:127
+829,Midi CC#020,0:1:127
+830,Midi CC#021,0:1:127
+831,Midi CC#022,0:1:127
+832,Midi CC#023,0:1:127
+833,Midi CC#024,0:1:127
+834,Midi CC#025,0:1:127
+835,Midi CC#026,0:1:127
+836,Midi CC#027,0:1:127
+837,Midi CC#028,0:1:127
+838,Midi CC#029,0:1:127
+839,Midi CC#030,0:1:127
+840,Midi CC#031,0:1:127
+841,Midi CC#032,0:1:127
+842,Midi CC#033,0:1:127
+843,Midi CC#034,0:1:127
+844,Midi CC#035,0:1:127
+845,Midi CC#036,0:1:127
+846,Midi CC#037,0:1:127
+847,Midi CC#038,0:1:127
+848,Midi CC#039,0:1:127
+849,Midi CC#040,0:1:127
+850,Midi CC#041,0:1:127
+851,Midi CC#042,0:1:127
+852,Midi CC#043,0:1:127
+853,Midi CC#044,0:1:127
+854,Midi CC#045,0:1:127
+855,Midi CC#046,0:1:127
+856,Midi CC#047,0:1:127
+857,Midi CC#048,0:1:127
+858,Midi CC#049,0:1:127
+859,Midi CC#050,0:1:127
+860,Midi CC#051,0:1:127
+861,Midi CC#052,0:1:127
+862,Midi CC#053,0:1:127
+863,Midi CC#054,0:1:127
+864,Midi CC#055,0:1:127
+865,Midi CC#056,0:1:127
+866,Midi CC#057,0:1:127
+867,Midi CC#058,0:1:127
+868,Midi CC#059,0:1:127
+869,Midi CC#060,0:1:127
+870,Midi CC#061,0:1:127
+871,Midi CC#062,0:1:127
+872,Midi CC#063,0:1:127
+873,Midi CC#064,0:1:127
+874,Midi CC#065,0:1:127
+875,Midi CC#066,0:1:127
+876,Midi CC#067,0:1:127
+877,Midi CC#068,0:1:127
+878,Midi CC#069,0:1:127
+879,Midi CC#070,0:1:127
+880,Midi CC#071,0:1:127
+881,Midi CC#072,0:1:127
+882,Midi CC#073,0:1:127
+883,Midi CC#074,0:1:127
+884,Midi CC#075,0:1:127
+885,Midi CC#076,0:1:127
+886,Midi CC#077,0:1:127
+887,Midi CC#078,0:1:127
+888,Midi CC#079,0:1:127
+889,Midi CC#080,0:1:127
+890,Midi CC#081,0:1:127
+891,Midi CC#082,0:1:127
+892,Midi CC#083,0:1:127
+893,Midi CC#084,0:1:127
+894,Midi CC#085,0:1:127
+895,Midi CC#086,0:1:127
+896,Midi CC#087,0:1:127
+897,Midi CC#088,0:1:127
+898,Midi CC#089,0:1:127
+899,Midi CC#090,0:1:127
+900,Midi CC#091,0:1:127
+901,Midi CC#092,0:1:127
+902,Midi CC#093,0:1:127
+903,Midi CC#094,0:1:127
+904,Midi CC#095,0:1:127
+905,Midi CC#096,0:1:127
+906,Midi CC#097,0:1:127
+907,Midi CC#098,0:1:127
+908,Midi CC#099,0:1:127
+909,Midi CC#100,0:1:127
+910,Midi CC#101,0:1:127
+911,Midi CC#102,0:1:127
+912,Midi CC#103,0:1:127
+913,Midi CC#104,0:1:127
+914,Midi CC#105,0:1:127
+915,Midi CC#106,0:1:127
+916,Midi CC#107,0:1:127
+917,Midi CC#108,0:1:127
+918,Midi CC#109,0:1:127
+919,Midi CC#110,0:1:127
+920,Midi CC#111,0:1:127
+921,Midi CC#112,0:1:127
+922,Midi CC#113,0:1:127
+923,Midi CC#114,0:1:127
+924,Midi CC#115,0:1:127
+925,Midi CC#116,0:1:127
+926,Midi CC#117,0:1:127
+927,Midi CC#118,0:1:127
+928,Midi CC#119,0:1:127
+929,Midi CC#120,0:1:127
+930,Midi CC#121,0:1:127
+931,Midi CC#122,0:1:127
+932,Midi CC#123,0:1:127
+933,Midi CC#124,0:1:127
+934,Midi CC#125,0:1:127
+935,Midi CC#126,0:1:127
+936,Midi CC#127,0:1:127
