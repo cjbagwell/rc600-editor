@@ -1,0 +1,345 @@
+{
+    "2/4,TRAD": [
+        "TRAIN 2"
+    ],
+    "2/4,BALLRM": [
+        "CUMBIA"
+    ],
+    "2/4,GUIDE": [
+        "2/4",
+        "2/4 TRIPLE"
+    ],
+    "3/4,BALLAD": [
+        "SHUFFLE 2"
+    ],
+    "3/4,BLUES": [
+        "3 BEAT"
+    ],
+    "3/4,BALLRM": [
+        "WALTZ 1",
+        " WALTZ 2"
+    ],
+    "3/4,GUIDE": [
+        "3/4",
+        " 3/4 TRIPLE"
+    ],
+    "4/4,ACOUSTIC": [
+        "SIDE STICK",
+        " BOSSA",
+        " BRUSH1",
+        " BRUSH2",
+        " CONGA 8 BEAT",
+        " CONGA 16 BEAT",
+        " CONGA 4 BEAT",
+        " CONGA SWING",
+        " CONGA BOSSA",
+        " CAJON 1",
+        " CAJON 2"
+    ],
+    "4/4,BALLAD": [
+        "SIDE STICK 1",
+        "SIDE STICK 2",
+        "SIDE STICK 3",
+        "SIDE STICK 4",
+        "SHUFFLE1",
+        " 8 BEAT",
+        " 16 BEAT 1",
+        " 16 BEAT 2",
+        " SWING",
+        ""
+    ],
+    "4/4,BLUES": [
+        "12 BARS",
+        " SHUFFLE 1",
+        " SHUFFLE 2",
+        " SWING"
+    ],
+    "4/4,JAZZ": [
+        "JAZZ BLUES",
+        " FAST 4 BEAT",
+        " HARD BOP",
+        " BRUSH BOP",
+        " BRUSH SWING",
+        " FAST SWING",
+        " MED SWING",
+        " SLOW LEGATO",
+        " JAZZ SAMBA"
+    ],
+    "4/4,FUSION": [
+        "16 BEAT 1",
+        "16 BEAT 2",
+        "16 BEAT 3",
+        "16 BEAT 4",
+        "16 BEAT 5",
+        "16 BEAT 6",
+        "16 BEAT 7",
+        "SWING"
+    ],
+    "4/4,R&B": [
+        "SWING1",
+        " SWING2",
+        " SWING3",
+        " SIDE STICK 1",
+        " SIDE STICK 2",
+        " SIDE STICK 3",
+        "SHUFFLE 1",
+        " SHUFFLE 2",
+        " 8BEAT 1",
+        " 16 BEAT"
+    ],
+    "4/4,SOUL": [
+        "SWING1",
+        " SWING2",
+        " SWING3",
+        " SWING4",
+        " 16 BEAT1",
+        " 16 BEAT2",
+        " 16 BEAT3",
+        "SIDE STICK1",
+        " SIDE STICK 2",
+        " MOTOWN",
+        " PERCUS",
+        ""
+    ],
+    "4/4,FUNK": [
+        "8 BEAT 1",
+        "8 BEAT 2",
+        "8 BEAT 3",
+        "8 BEAT 4",
+        " 16 BEAT 1",
+        " 16 BEAT 2",
+        " 16 BEAT 3",
+        " 16 BEAT 4",
+        " SWING 1",
+        " SWING 2",
+        " SWING 3"
+    ],
+    "4/4,POP": [
+        "8 BEAT 1",
+        " 8 BEAT 2",
+        " 16 BEAT 1",
+        " 16 BEAT 2",
+        " PERCUS 1",
+        " SHUFFLE 1",
+        " SHUFFLE 2",
+        " SIDE STICK1",
+        " SIDE STICK2",
+        "SWING 1",
+        " SWING 2"
+    ],
+    "4/4,SOFT ROCK": [
+        "16 BEAT 1",
+        "16 BEAT 2",
+        "16 BEAT 3",
+        "16 BEAT 4",
+        "8 BEAT",
+        " SWING 1",
+        " SWING 2",
+        " SWING 3",
+        " SWING 4",
+        " SIDE STICK 1",
+        " SIDE STICK 2",
+        " PERCUS 1",
+        " PERCUS 2"
+    ],
+    "4/4,ROCK": [
+        "8 BEAT 1",
+        "8 BEAT 2",
+        "8 BEAT 3",
+        "8 BEAT 4",
+        "8 BEAT 5",
+        "8 BEAT 6",
+        "16 BEAT 1",
+        "16 BEAT 2",
+        "16 BEAT 3",
+        "16 BEAT 4",
+        " SHUFFLE 1",
+        " SHUFFLE 2",
+        " SWING 1",
+        " SWING 2",
+        " SWING 3",
+        " SWING 4"
+    ],
+    "4/4,ALT ROCK": [
+        "RIDE BEAT",
+        " 8 BEAT 1",
+        " 8 BEAT 2",
+        " 8 BEAT 3",
+        " 8 BEAT 4",
+        " 16 BEAT 1",
+        " 16 BEAT 2",
+        " 16 BEAT 3",
+        " 16 BEAT 4",
+        "SWING"
+    ],
+    "4/4,PUNK": [
+        "8 BEAT 1",
+        "8 BEAT 2",
+        "8 BEAT 3",
+        "8 BEAT 4",
+        "8 BEAT 5",
+        "8 BEAT 6",
+        "16 BEAT 1",
+        "16 BEAT 2",
+        "16 BEAT 3",
+        "SIDE STICK",
+        "8 BEAT 6.1"
+    ],
+    "4/4,HEAVY ROCK": [
+        "8 BEAT  1",
+        "8 BEAT  2",
+        "8 BEAT  3",
+        " 16 BEAT 1",
+        " 16 BEAT 2",
+        " 16 BEAT 3",
+        "SHUFFLE 1",
+        " SHUFFLE 2",
+        " SWING 1",
+        " SWING 2",
+        " SWING 3"
+    ],
+    "4/4,METAL": [
+        "8 BEAT 1",
+        "8 BEAT 2",
+        "8 BEAT 3",
+        "8 BEAT 4",
+        "8 BEAT 5",
+        "8 BEAT 6",
+        " 2X DB1",
+        " 2X DB2",
+        " 2X DB3",
+        " 2X DB4",
+        " 2X DB5 "
+    ],
+    "4/4,TRAD": [
+        "ROCKN ROLL",
+        " TRAIN 1",
+        " COUNTRY 1",
+        " COUNTRY 2",
+        " COUNTRY 3",
+        " FOXTROT",
+        " TRAD 1",
+        " TRAD 2"
+    ],
+    "4/4,WORLD": [
+        "BOSSA 1",
+        " BOSSA 2",
+        " SAMBA 1",
+        " SAMBA 2",
+        " BOOGALOO",
+        " MERENGUE",
+        " REGGAE",
+        " LATIN ROCK 1",
+        " LATIN ROCK 2",
+        " LATIN PERC",
+        " SURDO",
+        " LATIN 1",
+        " LATIN 2"
+    ],
+    "4/4,BALLRM": [
+        "CHACHA",
+        " BEGUINE",
+        " RHUMBA",
+        " TANGO 1",
+        " TANGO 2",
+        " JIVE",
+        " CHARLESTON"
+    ],
+    "4/4,ELECTRO": [
+        "ELECTRO 1",
+        "ELECTRO 2",
+        "ELECTRO 3",
+        "ELECTRO 4",
+        "ELECTRO 5",
+        "ELECTRO 6",
+        "ELECTRO 7",
+        "ELECTRO 8"
+    ],
+    "4/4,GUIDE": [
+        "4/4",
+        "4/4 TRIPLE",
+        "BD 8 BEAT",
+        " BD 16 BEAT",
+        " BD SHUFFLE",
+        " HH 8 BEAT",
+        " HH 16 BEAT",
+        " HH SWING 1",
+        " HH SWING 2",
+        " 8 BEAT 1",
+        " 8 BEAT 2",
+        " 8 BEAT 3",
+        " 8 BEAT 4"
+    ],
+    "4/4,USER": [
+        "SIMPLE BEAT"
+    ],
+    "5/4,ALT ROCK": [
+        "5/4 BEAT"
+    ],
+    "5/4,ELECTRO": [
+        "5/4 BEAT"
+    ],
+    "5/4,GUIDE": [
+        "5/4",
+        " 5/4 TRIPLE"
+    ],
+    "6/4,GUIDE": [
+        "6/4",
+        "6/4 TRIPLE"
+    ],
+    "7/4,GUIDE": [
+        "7/4",
+        " 7/4 TRIPLE"
+    ],
+    "5/8,GUIDE": [
+        "5/8"
+    ],
+    "6/8,BALLAD": [
+        "6/8 BEAT"
+    ],
+    "6/8,BLUES": [
+        "6/8 BEAT"
+    ],
+    "6/8,JAZZ": [
+        "6/8 BEAT"
+    ],
+    "6/8,POP": [
+        "PERCUS2"
+    ],
+    "6/8,GUIDE": [
+        "6/8"
+    ],
+    "7/8,FUSION": [
+        "7/8 BEAT"
+    ],
+    "7/8,R&B": [
+        "7/8 BEAT"
+    ],
+    "7/8,GUIDE": [
+        "7/8"
+    ],
+    "8/8,GUIDE": [
+        "8/8"
+    ],
+    "9/8,GUIDE": [
+        "9/8"
+    ],
+    "10/8,GUIDE": [
+        "10/8"
+    ],
+    "11/8,GUIDE": [
+        "11/8"
+    ],
+    "12/8,GUIDE": [
+        "12/8"
+    ],
+    "13/8,GUIDE": [
+        "13/8"
+    ],
+    "14/8,GUIDE": [
+        "14/8"
+    ],
+    "15/8,GUIDE": [
+        "15/8"
+    ]
+}

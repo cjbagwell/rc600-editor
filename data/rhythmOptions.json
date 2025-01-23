@@ -1,1 +1,81 @@
-{"GENRE": ["placeholder"], "PATTERN": ["placeholder"], "VARIATION": ["A", "B", "C", "D"], "KIT": ["STUDIO", "LIVE", "LIGHT", "HEAVY", "ROCK", "METAL", "JAZZ", "BRUSH", "CAJON", "DRUM&BASS", "R&B", "DANCE", "TECHNO", "DANCE BEATS", "HIP HOP", "808&909"], "BEAT": ["2/4", "3/4", "4/4", "5/4", "6/4", "7/4", "5/8", "6/8", "7/8", "8/8", "9/8", "10/8", "11/8", "12/8", "13/8", "14/8", "15/8"], "START_TRIGGER": ["LOOP START", "REC END", "BEFORE LOOP"], "STOP_TRIGGER": ["OFF", "LOOP STOP", "REC END"], "INTRO_REC": ["OFF", "ON"], "INTRO_PLAY": ["OFF", "ON"], "ENDING": ["OFF", "ON"], "FILL": ["OFF", "ON"], "VARIATION_CHANGE": ["MEASURE", "LOOP END"]}
+{
+    "GENRE": [
+        "placeholder"
+    ],
+    "PATTERN": [
+        "placeholder"
+    ],
+    "VARIATION": [
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
+    "KIT": [
+        "STUDIO",
+        "LIVE",
+        "LIGHT",
+        "HEAVY",
+        "ROCK",
+        "METAL",
+        "JAZZ",
+        "BRUSH",
+        "CAJON",
+        "DRUM&BASS",
+        "R&B",
+        "DANCE",
+        "TECHNO",
+        "DANCE BEATS",
+        "HIP HOP",
+        "808&909"
+    ],
+    "BEAT": [
+        "2/4",
+        "3/4",
+        "4/4",
+        "5/4",
+        "6/4",
+        "7/4",
+        "5/8",
+        "6/8",
+        "7/8",
+        "8/8",
+        "9/8",
+        "10/8",
+        "11/8",
+        "12/8",
+        "13/8",
+        "14/8",
+        "15/8"
+    ],
+    "START_TRIGGER": [
+        "LOOP START",
+        "REC END",
+        "BEFORE LOOP"
+    ],
+    "STOP_TRIGGER": [
+        "OFF",
+        "LOOP STOP",
+        "REC END"
+    ],
+    "INTRO_REC": [
+        "OFF",
+        "ON"
+    ],
+    "INTRO_PLAY": [
+        "OFF",
+        "ON"
+    ],
+    "ENDING": [
+        "OFF",
+        "ON"
+    ],
+    "FILL": [
+        "OFF",
+        "ON"
+    ],
+    "VARIATION_CHANGE": [
+        "MEASURE",
+        "LOOP END"
+    ]
+}
