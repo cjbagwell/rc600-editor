@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
+from InfoFrame import InfoFrame
 from LoopFrame import LoopFrame
 from AssignsFrame import AssignsFrame
 from ControlFunctionsFrame import ControlFunctionFrame
@@ -18,7 +19,7 @@ class MemoryEditorComponent(ttk.Frame):
         self.notebook.pack(expand=True, fill="both")
 
     def create_frames(self):
-        # self.info_frame = ttk.Frame(self.notebook)
+        self.info_frame = InfoFrame(self.notebook)
         self.loop_frame = LoopFrame(self.notebook)
         self.ctl_func_frame = ControlFunctionFrame(self.notebook)
         self.assigns_frame = AssignsFrame(self.notebook)
@@ -30,7 +31,7 @@ class MemoryEditorComponent(ttk.Frame):
 
     def add_frames_to_notebook(self):
         # Add frames to notebook
-        # self.notebook.add(self.info_frame, text="Info")
+        self.notebook.add(self.info_frame, text="Info")
         self.notebook.add(self.loop_frame, text="Loop")
         self.notebook.add(self.ctl_func_frame, text="Control Functions")
         self.notebook.add(self.assigns_frame, text="Assigns")
@@ -43,9 +44,10 @@ class MemoryEditorComponent(ttk.Frame):
 
     def load_settings_file(self, file):
         settings_dict = su.read_settings_file(file)
+        self.info_frame.load_from_settings_dict(settings_dict)
         self.loop_frame.load_from_settings_dict(settings_dict)
         # self.ctl_func_frame.load_from_settings_dict(settings_dict)
-        # self.assigns_frame.load_from_settings_dict(settings_dict)
+        self.assigns_frame.load_from_settings_dict(settings_dict)
         # mem_dict = settings_dict['database']['mem']
         # print(settings_dict)
 
@@ -57,9 +59,9 @@ root.title("Memory Editor")
 
 tmp = MemoryEditorComponent(root)
 tmp.notebook.pack(expand=True, fill="both")
-# tmp.load_settings_file(r"F:\ROLAND\DATA\MEMORY099A.RC0")
+tmp.load_settings_file(r"F:\ROLAND\DATA\MEMORY010B.RC0")
 # tmp.load_settings_file(r'exampleData\ROLAND\DATA\MEMORY011A.RC0')
-tmp.load_settings_file(r'exampleData\ROLAND\DATA\MEMORY098A.RC0')
+# tmp.load_settings_file(r'exampleData\ROLAND\DATA\MEMORY098A.RC0')
 # tmp.pack()
 # tmp.pack()
 tmp.mainloop()

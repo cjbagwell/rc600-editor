@@ -172,14 +172,30 @@ class AssignsFrame(ttk.Frame):
 
                 self.components.append({
                     'enable': enable_var,
-                    'source': source_var,
-                    'mode': mode_var,
-                    'act_lo': act_lo_var,
-                    'act_hi': act_hi_var,
-                    'target': target_var,
-                    'min': min_var,
-                    'max': max_var
+                    'source': source_combobox,
+                    'mode': mode_combobox,
+                    'act_lo': act_lo_spinbox,
+                    'act_hi': act_hi_spinbox,
+                    'target': target_combobox,
+                    'min': min_combobox,
+                    'max': max_combobox
                 })
+
+    def load_from_settings_dict(self, settings_dict):
+        # TODO: Implement this function correctly
+        for i, comp in enumerate(self.components):
+            d = settings_dict['database']['mem'][f"ASSIGN{str(i+1)}"]
+            comp['enable'].set(int(d['A']))
+            comp['source'].current(int(d['B']))
+            comp['mode'].current(int(d['C']))
+            comp['act_lo'].set(0)
+            comp['act_hi'].set(int(d['F']))
+            comp['act_lo'].set(int(d['E']))
+            comp['target'].current(int(d['G'])+1)
+            comp['min'].current(int(d['H']))
+            comp['max'].current(int(d['I']))
+            print(f"i:{i} d['J']: {d['J']}")
+
 
 # root = tk.Tk()
 # root.title("Assigns")
