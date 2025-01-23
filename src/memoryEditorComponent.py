@@ -3,7 +3,7 @@ from tkinter import ttk
 from LoopFrame import LoopFrame
 from AssignsFrame import AssignsFrame
 from ControlFunctionsFrame import ControlFunctionFrame
-import csv
+import settingsUtil as su
 import json
 
 
@@ -41,11 +41,25 @@ class MemoryEditorComponent(ttk.Frame):
         # self.notebook.add(self.tfx_frame, text="TFX")
         # Set grid locations
 
+    def load_settings_file(self, file):
+        settings_dict = su.read_settings_file(file)
+        self.loop_frame.load_from_settings_dict(settings_dict)
+        # self.ctl_func_frame.load_from_settings_dict(settings_dict)
+        # self.assigns_frame.load_from_settings_dict(settings_dict)
+        # mem_dict = settings_dict['database']['mem']
+        # print(settings_dict)
+
+    def export_as_settings_file(self, file):
+        print("Exporting as settings file not implemented yet")
+
 root = tk.Tk()
 root.title("Memory Editor")
 
 tmp = MemoryEditorComponent(root)
 tmp.notebook.pack(expand=True, fill="both")
+# tmp.load_settings_file(r"F:\ROLAND\DATA\MEMORY099A.RC0")
+# tmp.load_settings_file(r'exampleData\ROLAND\DATA\MEMORY011A.RC0')
+tmp.load_settings_file(r'exampleData\ROLAND\DATA\MEMORY098A.RC0')
 # tmp.pack()
 # tmp.pack()
 tmp.mainloop()

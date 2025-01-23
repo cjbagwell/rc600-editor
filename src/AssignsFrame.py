@@ -42,8 +42,6 @@ class AssignsFrame(ttk.Frame):
 
         return targets, minMaxOptions
 
-
-
     def create_widgets(self):
         # Read options from CSV files
         source_options = read_csv_options('data/AssignSources.csv', 'source')
