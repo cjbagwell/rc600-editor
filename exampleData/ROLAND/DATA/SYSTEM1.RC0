@@ -2,7 +2,7 @@
 <database name="RC-600" revision="0">
 <sys>
 <SETUP>
-	<A>79</A>
+	<A>9</A>
 	<B>0</B>
 	<C>98</C>
 	<D>2</D>
@@ -407,8 +407,8 @@
 	<R>100</R>
 	<S>100</S>
 	<T>100</T>
-	<U>8</U>
-	<V>8</V>
+	<U>0</U>
+	<V>0</V>
 </MIXER>
 <EQ_MIC1>
 	<A>1</A>
@@ -580,7 +580,7 @@
 </EQ_SUBOUT2R>
 <MASTER_FX>
 	<A>0</A>
-	<B>14</B>
+	<B>16</B>
 	<C>0</C>
 </MASTER_FX>
 <FIXED_VALUE>
@@ -589,4 +589,4 @@
 </FIXED_VALUE>
 </sys>
 </database>
-<count>0BDD</count>
+<count>0D0B</count>

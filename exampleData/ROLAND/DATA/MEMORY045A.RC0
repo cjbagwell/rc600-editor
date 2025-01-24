@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <database name="RC-600" revision="0">
-<mem id="0">
+<mem id="44">
 <NAME>
-	<A>73</A>
-	<B>100</B>
+	<A>65</A>
+	<B>99</B>
 	<C>111</C>
-	<D>110</D>
-	<E>116</E>
-	<F>78</F>
-	<G>101</G>
-	<H>101</H>
-	<I>78</I>
+	<D>117</D>
+	<E>115</E>
+	<F>116</F>
+	<G>105</G>
+	<H>99</H>
+	<I>76</I>
 	<J>111</J>
-	<K>68</K>
-	<L>32</L>
+	<K>111</K>
+	<L>112</L>
 </NAME>
 <TRACK1>
 	<A>0</A>
@@ -24,23 +24,23 @@
 	<F>2</F>
 	<G>0</G>
 	<H>1</H>
-	<I>1</I>
-	<J>21</J>
+	<I>0</I>
+	<J>1</J>
 	<K>0</K>
 	<L>1</L>
 	<M>1</M>
 	<N>1</N>
 	<O>1</O>
 	<P>0</P>
-	<Q>127</Q>
+	<Q>126</Q>
 	<R>1</R>
-	<S>14</S>
+	<S>0</S>
 	<T>0</T>
-	<U>900</U>
-	<V>117600</V>
-	<W>1</W>
-	<X>1646400</X>
-	<Y>2</Y>
+	<U>1200</U>
+	<V>88200</V>
+	<W>0</W>
+	<X>0</X>
+	<Y>1</Y>
 </TRACK1>
 <TRACK2>
 	<A>0</A>
@@ -52,22 +52,22 @@
 	<G>0</G>
 	<H>1</H>
 	<I>1</I>
-	<J>21</J>
+	<J>1</J>
 	<K>0</K>
 	<L>1</L>
 	<M>1</M>
 	<N>1</N>
 	<O>1</O>
 	<P>0</P>
-	<Q>127</Q>
+	<Q>126</Q>
 	<R>1</R>
-	<S>14</S>
+	<S>0</S>
 	<T>0</T>
-	<U>900</U>
-	<V>117600</V>
-	<W>1</W>
-	<X>1646400</X>
-	<Y>2</Y>
+	<U>1200</U>
+	<V>88200</V>
+	<W>0</W>
+	<X>0</X>
+	<Y>1</Y>
 </TRACK2>
 <TRACK3>
 	<A>0</A>
@@ -86,7 +86,7 @@
 	<N>1</N>
 	<O>1</O>
 	<P>0</P>
-	<Q>127</Q>
+	<Q>126</Q>
 	<R>1</R>
 	<S>0</S>
 	<T>0</T>
@@ -94,7 +94,7 @@
 	<V>88200</V>
 	<W>0</W>
 	<X>0</X>
-	<Y>2</Y>
+	<Y>1</Y>
 </TRACK3>
 <TRACK4>
 	<A>0</A>
@@ -113,7 +113,7 @@
 	<N>1</N>
 	<O>1</O>
 	<P>0</P>
-	<Q>127</Q>
+	<Q>126</Q>
 	<R>1</R>
 	<S>0</S>
 	<T>0</T>
@@ -121,7 +121,7 @@
 	<V>88200</V>
 	<W>0</W>
 	<X>0</X>
-	<Y>2</Y>
+	<Y>1</Y>
 </TRACK4>
 <TRACK5>
 	<A>0</A>
@@ -140,7 +140,7 @@
 	<N>1</N>
 	<O>1</O>
 	<P>0</P>
-	<Q>127</Q>
+	<Q>126</Q>
 	<R>1</R>
 	<S>0</S>
 	<T>0</T>
@@ -148,7 +148,7 @@
 	<V>88200</V>
 	<W>0</W>
 	<X>0</X>
-	<Y>2</Y>
+	<Y>1</Y>
 </TRACK5>
 <TRACK6>
 	<A>0</A>
@@ -167,7 +167,7 @@
 	<N>1</N>
 	<O>1</O>
 	<P>0</P>
-	<Q>127</Q>
+	<Q>126</Q>
 	<R>1</R>
 	<S>0</S>
 	<T>0</T>
@@ -175,13 +175,13 @@
 	<V>88200</V>
 	<W>0</W>
 	<X>0</X>
-	<Y>2</Y>
+	<Y>1</Y>
 </TRACK6>
 <MASTER>
-	<A>900</A>
-	<B>117600</B>
+	<A>1251</A>
+	<B>84592</B>
 	<C>0</C>
-	<D>14</D>
+	<D>0</D>
 </MASTER>
 <REC>
 	<A>1</A>
@@ -192,7 +192,7 @@
 	<F>63</F>
 </REC>
 <PLAY>
-	<A>0</A>
+	<A>2</A>
 	<B>5</B>
 	<C>5</C>
 	<D>63</D>
@@ -202,9 +202,9 @@
 	<H>1</H>
 </PLAY>
 <RHYTHM>
-	<A>8</A>
-	<B>0</B>
-	<C>2</C>
+	<A>19</A>
+	<B>4</B>
+	<C>0</C>
 	<D>0</D>
 	<E>0</E>
 	<F>2</F>
@@ -214,7 +214,7 @@
 	<J>0</J>
 	<K>0</K>
 	<L>1</L>
-	<M>1</M>
+	<M>0</M>
 </RHYTHM>
 <ICTL1_TRACK1_FX>
 	<A>15</A>
@@ -317,42 +317,42 @@
 	<C>1</C>
 </ICTL2_TRACK5_TRACK>
 <ICTL1_PEDAL1>
-	<A>4</A>
+	<A>2</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL1>
 <ICTL1_PEDAL2>
-	<A>30</A>
+	<A>11</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL2>
 <ICTL1_PEDAL3>
-	<A>56</A>
+	<A>28</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL3>
 <ICTL1_PEDAL4>
-	<A>82</A>
+	<A>37</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL4>
 <ICTL1_PEDAL5>
-	<A>108</A>
+	<A>54</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL5>
 <ICTL1_PEDAL6>
-	<A>134</A>
+	<A>63</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL6>
 <ICTL1_PEDAL7>
-	<A>194</A>
+	<A>193</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL7>
 <ICTL1_PEDAL8>
-	<A>207</A>
+	<A>171</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL1_PEDAL8>
@@ -362,42 +362,42 @@
 	<C>1</C>
 </ICTL1_PEDAL9>
 <ICTL2_PEDAL1>
-	<A>217</A>
+	<A>80</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL1>
 <ICTL2_PEDAL2>
-	<A>218</A>
+	<A>89</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL2>
 <ICTL2_PEDAL3>
-	<A>219</A>
+	<A>106</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL3>
 <ICTL2_PEDAL4>
-	<A>220</A>
+	<A>115</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL4>
 <ICTL2_PEDAL5>
-	<A>221</A>
+	<A>132</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL5>
 <ICTL2_PEDAL6>
-	<A>222</A>
+	<A>141</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL6>
 <ICTL2_PEDAL7>
-	<A>194</A>
+	<A>193</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL7>
 <ICTL2_PEDAL8>
-	<A>207</A>
+	<A>171</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL2_PEDAL8>
@@ -422,32 +422,32 @@
 	<C>1</C>
 </ICTL3_PEDAL3>
 <ICTL3_PEDAL4>
-	<A>199</A>
+	<A>202</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL3_PEDAL4>
 <ICTL3_PEDAL5>
-	<A>211</A>
+	<A>203</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL3_PEDAL5>
 <ICTL3_PEDAL6>
-	<A>210</A>
+	<A>204</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL3_PEDAL6>
 <ICTL3_PEDAL7>
-	<A>194</A>
+	<A>193</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL3_PEDAL7>
 <ICTL3_PEDAL8>
-	<A>0</A>
+	<A>178</A>
 	<B>0</B>
-	<C>0</C>
+	<C>1</C>
 </ICTL3_PEDAL8>
 <ICTL3_PEDAL9>
-	<A>187</A>
+	<A>170</A>
 	<B>0</B>
 	<C>1</C>
 </ICTL3_PEDAL9>
@@ -488,25 +488,25 @@
 	<D>100</D>
 </ECTL_EXP2>
 <ASSIGN1>
-	<A>1</A>
-	<B>38</B>
+	<A>0</A>
+	<B>0</B>
 	<C>0</C>
 	<D>0</D>
 	<E>0</E>
 	<F>127</F>
-	<G>86</G>
+	<G>0</G>
 	<H>0</H>
 	<I>0</I>
 	<J>1</J>
 </ASSIGN1>
 <ASSIGN2>
 	<A>0</A>
-	<B>28</B>
+	<B>0</B>
 	<C>0</C>
 	<D>0</D>
 	<E>0</E>
 	<F>127</F>
-	<G>725</G>
+	<G>0</G>
 	<H>0</H>
 	<I>0</I>
 	<J>1</J>
@@ -572,13 +572,13 @@
 	<J>1</J>
 </ASSIGN7>
 <ASSIGN8>
-	<A>0</A>
-	<B>0</B>
+	<A>1</A>
+	<B>38</B>
 	<C>0</C>
 	<D>0</D>
 	<E>0</E>
 	<F>127</F>
-	<G>0</G>
+	<G>86</G>
 	<H>0</H>
 	<I>0</I>
 	<J>1</J>
@@ -692,7 +692,7 @@
 	<J>40</J>
 	<K>40</K>
 	<L>40</L>
-	<M>53</M>
+	<M>40</M>
 </INPUT>
 <OUTPUT>
 	<A>0</A>
@@ -730,12 +730,12 @@
 	<F>0</F>
 	<G>100</G>
 	<H>0</H>
-	<I>162</I>
+	<I>100</I>
 	<J>0</J>
 	<K>100</K>
 	<L>0</L>
 	<M>100</M>
-	<N>114</N>
+	<N>100</N>
 	<O>100</O>
 	<P>100</P>
 	<Q>100</Q>
@@ -923,20 +923,20 @@
 	<B>1</B>
 </FIXED_VALUE>
 </mem>
-<ifx id="0">
+<ifx id="44">
 <SETUP>
-	<A>2</A>
+	<A>0</A>
 </SETUP>
 <A>
 	<A>1</A>
 	<B>1</B>
-	<C>3</C>
+	<C>2</C>
 </A>
 <AA>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>24</C>
-	<D>3</D>
+	<C>9</C>
+	<D>5</D>
 </AA>
 <AA_LPF>
 	<A>3</A>
@@ -1168,7 +1168,7 @@
 	<V>0</V>
 </AA_RING_MODULATOR_SEQ>
 <AA_G2B>
-	<A>50</A>
+	<A>40</A>
 	<B>1</B>
 </AA_G2B>
 <AA_SUSTAINER>
@@ -1330,18 +1330,18 @@
 	<V>0</V>
 </AA_OSC_BOT_SEQ>
 <AA_PREAMP>
-	<A>1</A>
-	<B>2</B>
-	<C>95</C>
-	<D>12</D>
+	<A>3</A>
+	<B>1</B>
+	<C>50</C>
+	<D>10</D>
 	<E>50</E>
 	<F>50</F>
 	<G>50</G>
 	<H>50</H>
 	<I>0</I>
-	<J>1</J>
+	<J>0</J>
 	<K>0</K>
-	<L>29</L>
+	<L>50</L>
 </AA_PREAMP>
 <AA_DIST>
 	<A>1</A>
@@ -1351,8 +1351,8 @@
 	<E>50</E>
 </AA_DIST>
 <AA_DYNAMICS>
-	<A>2</A>
-	<B>30</B>
+	<A>0</A>
+	<B>22</B>
 </AA_DYNAMICS>
 <AA_EQ>
 	<A>20</A>
@@ -1368,7 +1368,7 @@
 <AA_ISOLATOR>
 	<A>0</A>
 	<B>6</B>
-	<C>24</C>
+	<C>50</C>
 	<D>100</D>
 	<E>0</E>
 	<F>0</F>
@@ -1692,10 +1692,10 @@
 	<G>50</G>
 </AA_REVERSE_REVERB>
 <AB>
-	<A>0</A>
+	<A>1</A>
 	<B>0</B>
-	<C>22</C>
-	<D>3</D>
+	<C>46</C>
+	<D>5</D>
 </AB>
 <AB_LPF>
 	<A>3</A>
@@ -2089,9 +2089,9 @@
 	<V>0</V>
 </AB_OSC_BOT_SEQ>
 <AB_PREAMP>
-	<A>4</A>
-	<B>7</B>
-	<C>79</C>
+	<A>3</A>
+	<B>1</B>
+	<C>50</C>
 	<D>10</D>
 	<E>50</E>
 	<F>50</F>
@@ -2100,7 +2100,7 @@
 	<I>0</I>
 	<J>0</J>
 	<K>0</K>
-	<L>40</L>
+	<L>50</L>
 </AB_PREAMP>
 <AB_DIST>
 	<A>1</A>
@@ -2335,11 +2335,11 @@
 </AB_STEP_SLICER>
 <AB_DELAY>
 	<A>211</A>
-	<B>20</B>
-	<C>100</C>
-	<D>0</D>
-	<E>29</E>
-	<F>50</F>
+	<B>8</B>
+	<C>56</C>
+	<D>3</D>
+	<E>22</E>
+	<F>21</F>
 </AB_DELAY>
 <AB_PANNING_DELAY>
 	<A>211</A>
@@ -2453,8 +2453,8 @@
 <AC>
 	<A>1</A>
 	<B>0</B>
-	<C>9</C>
-	<D>3</D>
+	<C>24</C>
+	<D>5</D>
 </AC>
 <AC_LPF>
 	<A>3</A>
@@ -2869,8 +2869,8 @@
 	<E>50</E>
 </AC_DIST>
 <AC_DYNAMICS>
-	<A>0</A>
-	<B>20</B>
+	<A>2</A>
+	<B>25</B>
 </AC_DYNAMICS>
 <AC_EQ>
 	<A>20</A>
@@ -3093,12 +3093,12 @@
 	<#>6</#>
 </AC_STEP_SLICER>
 <AC_DELAY>
-	<A>211</A>
-	<B>18</B>
+	<A>8</A>
+	<B>17</B>
 	<C>100</C>
-	<D>0</D>
-	<E>29</E>
-	<F>13</F>
+	<D>4</D>
+	<E>26</E>
+	<F>50</F>
 </AC_DELAY>
 <AC_PANNING_DELAY>
 	<A>211</A>
@@ -3130,8 +3130,8 @@
 	<B>50</B>
 	<C>100</C>
 	<D>0</D>
-	<E>25</E>
-	<F>8</F>
+	<E>29</E>
+	<F>50</F>
 </AC_TAPE_ECHO>
 <AC_TAPE_ECHO_V505V2>
 	<A>50</A>
@@ -3168,7 +3168,7 @@
 	<D>50</D>
 </AC_ROLL_V505V2>
 <AC_FREEZE>
-	<A>30</A>
+	<A>10</A>
 	<B>30</B>
 	<C>30</C>
 	<D>30</D>
@@ -3176,11 +3176,11 @@
 </AC_FREEZE>
 <AC_CHORUS>
 	<A>64</A>
-	<B>50</B>
+	<B>65</B>
 	<C>0</C>
 	<D>29</D>
 	<E>100</E>
-	<F>50</F>
+	<F>76</F>
 </AC_CHORUS>
 <AC_REVERB>
 	<A>30</A>
@@ -3189,7 +3189,7 @@
 	<D>0</D>
 	<E>29</E>
 	<F>100</F>
-	<G>50</G>
+	<G>46</G>
 </AC_REVERB>
 <AC_GATE_REVERB>
 	<A>30</A>
@@ -3210,10 +3210,10 @@
 	<G>50</G>
 </AC_REVERSE_REVERB>
 <AD>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>46</C>
-	<D>0</D>
+	<C>25</C>
+	<D>5</D>
 </AD>
 <AD_LPF>
 	<A>3</A>
@@ -3445,8 +3445,8 @@
 	<V>0</V>
 </AD_RING_MODULATOR_SEQ>
 <AD_G2B>
-	<A>61</A>
-	<B>0</B>
+	<A>50</A>
+	<B>1</B>
 </AD_G2B>
 <AD_SUSTAINER>
 	<A>50</A>
@@ -3607,9 +3607,9 @@
 	<V>0</V>
 </AD_OSC_BOT_SEQ>
 <AD_PREAMP>
-	<A>1</A>
-	<B>4</B>
-	<C>77</C>
+	<A>3</A>
+	<B>1</B>
+	<C>50</C>
 	<D>10</D>
 	<E>50</E>
 	<F>50</F>
@@ -3617,8 +3617,8 @@
 	<H>50</H>
 	<I>0</I>
 	<J>0</J>
-	<K>5</K>
-	<L>41</L>
+	<K>0</K>
+	<L>50</L>
 </AD_PREAMP>
 <AD_DIST>
 	<A>1</A>
@@ -3636,7 +3636,7 @@
 	<B>20</B>
 	<C>20</C>
 	<D>20</D>
-	<E>20</E>
+	<E>25</E>
 	<F>16</F>
 	<G>1</G>
 	<H>22</H>
@@ -3942,13 +3942,13 @@
 	<F>50</F>
 </AD_CHORUS>
 <AD_REVERB>
-	<A>30</A>
-	<B>0</B>
+	<A>21</A>
+	<B>5</B>
 	<C>4</C>
 	<D>0</D>
 	<E>29</E>
-	<F>100</F>
-	<G>33</G>
+	<F>93</F>
+	<G>42</G>
 </AD_REVERB>
 <AD_GATE_REVERB>
 	<A>30</A>
@@ -3974,10 +3974,10 @@
 	<C>1</C>
 </B>
 <BA>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>24</C>
-	<D>3</D>
+	<C>31</C>
+	<D>5</D>
 </BA>
 <BA_LPF>
 	<A>3</A>
@@ -4508,7 +4508,7 @@
 </BA_STEREO_ENHANCE>
 <BA_TREMOLO>
 	<A>99</A>
-	<B>50</B>
+	<B>71</B>
 	<C>50</C>
 	<D>50</D>
 </BA_TREMOLO>
@@ -4617,11 +4617,11 @@
 </BA_STEP_SLICER>
 <BA_DELAY>
 	<A>211</A>
-	<B>20</B>
+	<B>11</B>
 	<C>100</C>
-	<D>0</D>
+	<D>8</D>
 	<E>29</E>
-	<F>50</F>
+	<F>20</F>
 </BA_DELAY>
 <BA_PANNING_DELAY>
 	<A>211</A>
@@ -4706,13 +4706,13 @@
 	<F>50</F>
 </BA_CHORUS>
 <BA_REVERB>
-	<A>30</A>
-	<B>0</B>
+	<A>31</A>
+	<B>3</B>
 	<C>4</C>
-	<D>0</D>
-	<E>29</E>
+	<D>8</D>
+	<E>24</E>
 	<F>100</F>
-	<G>50</G>
+	<G>37</G>
 </BA_REVERB>
 <BA_GATE_REVERB>
 	<A>30</A>
@@ -4735,8 +4735,8 @@
 <BB>
 	<A>0</A>
 	<B>0</B>
-	<C>23</C>
-	<D>3</D>
+	<C>32</C>
+	<D>5</D>
 </BB>
 <BB_LPF>
 	<A>3</A>
@@ -4900,8 +4900,8 @@
 	<V>0</V>
 </BB_FLANGER_SEQ>
 <BB_SYNTH>
-	<A>50</A>
-	<B>50</B>
+	<A>42</A>
+	<B>26</B>
 	<C>50</C>
 	<D>50</D>
 </BB_SYNTH>
@@ -5064,7 +5064,7 @@
 	<E>0</E>
 </BB_ELECTRIC>
 <BB_HARMONIST_MANUAL>
-	<A>6</A>
+	<A>5</A>
 	<B>50</B>
 	<C>50</C>
 	<D>0</D>
@@ -5145,10 +5145,10 @@
 </BB_PREAMP>
 <BB_DIST>
 	<A>1</A>
-	<B>53</B>
-	<C>0</C>
+	<B>50</B>
+	<C>50</C>
 	<D>0</D>
-	<E>62</E>
+	<E>50</E>
 </BB_DIST>
 <BB_DYNAMICS>
 	<A>0</A>
@@ -5492,10 +5492,10 @@
 	<G>50</G>
 </BB_REVERSE_REVERB>
 <BC>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>22</C>
-	<D>3</D>
+	<C>49</C>
+	<D>5</D>
 </BC>
 <BC_LPF>
 	<A>3</A>
@@ -5889,10 +5889,10 @@
 	<V>0</V>
 </BC_OSC_BOT_SEQ>
 <BC_PREAMP>
-	<A>1</A>
+	<A>3</A>
 	<B>1</B>
-	<C>66</C>
-	<D>16</D>
+	<C>50</C>
+	<D>10</D>
 	<E>50</E>
 	<F>50</F>
 	<G>50</G>
@@ -5900,7 +5900,7 @@
 	<I>0</I>
 	<J>0</J>
 	<K>0</K>
-	<L>43</L>
+	<L>50</L>
 </BC_PREAMP>
 <BC_DIST>
 	<A>1</A>
@@ -6251,10 +6251,10 @@
 	<G>50</G>
 </BC_REVERSE_REVERB>
 <BD>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>46</C>
-	<D>0</D>
+	<C>35</C>
+	<D>5</D>
 </BD>
 <BD_LPF>
 	<A>3</A>
@@ -6893,12 +6893,12 @@
 	<#>6</#>
 </BD_STEP_SLICER>
 <BD_DELAY>
-	<A>211</A>
-	<B>23</B>
+	<A>7</A>
+	<B>20</B>
 	<C>100</C>
 	<D>0</D>
 	<E>29</E>
-	<F>11</F>
+	<F>50</F>
 </BD_DELAY>
 <BD_PANNING_DELAY>
 	<A>211</A>
@@ -6989,7 +6989,7 @@
 	<D>0</D>
 	<E>29</E>
 	<F>100</F>
-	<G>62</G>
+	<G>50</G>
 </BD_REVERB>
 <BD_GATE_REVERB>
 	<A>30</A>
@@ -7012,13 +7012,13 @@
 <C>
 	<A>1</A>
 	<B>1</B>
-	<C>0</C>
+	<C>2</C>
 </C>
 <CA>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>24</C>
-	<D>3</D>
+	<C>18</C>
+	<D>1</D>
 </CA>
 <CA_LPF>
 	<A>3</A>
@@ -7360,7 +7360,7 @@
 	<D>1</D>
 	<E>0</E>
 	<F>100</F>
-	<G>80</G>
+	<G>40</G>
 </CA_HARMONIST_AUTO>
 <CA_VOCODER>
 	<A>6</A>
@@ -7433,8 +7433,8 @@
 	<E>50</E>
 </CA_DIST>
 <CA_DYNAMICS>
-	<A>6</A>
-	<B>24</B>
+	<A>0</A>
+	<B>20</B>
 </CA_DYNAMICS>
 <CA_EQ>
 	<A>20</A>
@@ -7776,8 +7776,8 @@
 <CB>
 	<A>0</A>
 	<B>0</B>
-	<C>45</C>
-	<D>3</D>
+	<C>46</C>
+	<D>1</D>
 </CB>
 <CB_LPF>
 	<A>3</A>
@@ -8239,8 +8239,8 @@
 	<V>0</V>
 </CB_ISOLATOR_SEQ>
 <CB_OCTAVE>
-	<A>2</A>
-	<B>79</B>
+	<A>0</A>
+	<B>50</B>
 	<C>1</C>
 </CB_OCTAVE>
 <CB_OCTAVE_SEQ>
@@ -8499,20 +8499,20 @@
 </CB_FREEZE>
 <CB_CHORUS>
 	<A>64</A>
-	<B>74</B>
+	<B>50</B>
 	<C>0</C>
 	<D>29</D>
 	<E>100</E>
-	<F>40</F>
+	<F>50</F>
 </CB_CHORUS>
 <CB_REVERB>
 	<A>30</A>
 	<B>0</B>
-	<C>4</C>
+	<C>8</C>
 	<D>0</D>
 	<E>29</E>
 	<F>100</F>
-	<G>50</G>
+	<G>44</G>
 </CB_REVERB>
 <CB_GATE_REVERB>
 	<A>30</A>
@@ -8533,10 +8533,10 @@
 	<G>50</G>
 </CB_REVERSE_REVERB>
 <CC>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>22</C>
-	<D>3</D>
+	<C>39</C>
+	<D>1</D>
 </CC>
 <CC_LPF>
 	<A>3</A>
@@ -8931,13 +8931,13 @@
 </CC_OSC_BOT_SEQ>
 <CC_PREAMP>
 	<A>3</A>
-	<B>7</B>
-	<C>81</C>
-	<D>15</D>
-	<E>33</E>
-	<F>73</F>
-	<G>61</G>
-	<H>74</H>
+	<B>1</B>
+	<C>50</C>
+	<D>10</D>
+	<E>50</E>
+	<F>50</F>
+	<G>50</G>
+	<H>50</H>
 	<I>0</I>
 	<J>0</J>
 	<K>0</K>
@@ -9213,7 +9213,7 @@
 	<C>100</C>
 	<D>0</D>
 	<E>29</E>
-	<F>50</F>
+	<F>27</F>
 </CC_TAPE_ECHO>
 <CC_TAPE_ECHO_V505V2>
 	<A>50</A>
@@ -9292,10 +9292,10 @@
 	<G>50</G>
 </CC_REVERSE_REVERB>
 <CD>
-	<A>1</A>
+	<A>0</A>
 	<B>0</B>
-	<C>46</C>
-	<D>0</D>
+	<C>25</C>
+	<D>1</D>
 </CD>
 <CD_LPF>
 	<A>3</A>
@@ -9718,7 +9718,7 @@
 	<B>20</B>
 	<C>20</C>
 	<D>20</D>
-	<E>20</E>
+	<E>23</E>
 	<F>16</F>
 	<G>1</G>
 	<H>22</H>
@@ -9934,12 +9934,12 @@
 	<#>6</#>
 </CD_STEP_SLICER>
 <CD_DELAY>
-	<A>198</A>
-	<B>25</B>
+	<A>211</A>
+	<B>20</B>
 	<C>100</C>
 	<D>0</D>
 	<E>29</E>
-	<F>9</F>
+	<F>50</F>
 </CD_DELAY>
 <CD_PANNING_DELAY>
 	<A>211</A>
@@ -10030,7 +10030,7 @@
 	<D>0</D>
 	<E>29</E>
 	<F>100</F>
-	<G>69</G>
+	<G>50</G>
 </CD_REVERB>
 <CD_GATE_REVERB>
 	<A>30</A>
@@ -10056,9 +10056,9 @@
 	<C>3</C>
 </D>
 <DA>
-	<A>0</A>
+	<A>1</A>
 	<B>0</B>
-	<C>9</C>
+	<C>24</C>
 	<D>5</D>
 </DA>
 <DA_LPF>
@@ -10474,15 +10474,15 @@
 	<E>50</E>
 </DA_DIST>
 <DA_DYNAMICS>
-	<A>0</A>
-	<B>20</B>
+	<A>2</A>
+	<B>24</B>
 </DA_DYNAMICS>
 <DA_EQ>
 	<A>20</A>
 	<B>20</B>
 	<C>20</C>
 	<D>20</D>
-	<E>25</E>
+	<E>20</E>
 	<F>16</F>
 	<G>1</G>
 	<H>22</H>
@@ -10818,7 +10818,7 @@
 	<A>1</A>
 	<B>0</B>
 	<C>24</C>
-	<D>5</D>
+	<D>2</D>
 </DB>
 <DB_LPF>
 	<A>3</A>
@@ -11234,7 +11234,7 @@
 </DB_DIST>
 <DB_DYNAMICS>
 	<A>2</A>
-	<B>25</B>
+	<B>24</B>
 </DB_DYNAMICS>
 <DB_EQ>
 	<A>20</A>
@@ -11576,7 +11576,7 @@
 <DC>
 	<A>1</A>
 	<B>0</B>
-	<C>46</C>
+	<C>25</C>
 	<D>0</D>
 </DC>
 <DC_LPF>
@@ -11997,11 +11997,11 @@
 </DC_DYNAMICS>
 <DC_EQ>
 	<A>20</A>
-	<B>20</B>
+	<B>11</B>
 	<C>20</C>
 	<D>20</D>
 	<E>20</E>
-	<F>16</F>
+	<F>2</F>
 	<G>1</G>
 	<H>22</H>
 	<I>1</I>
@@ -12312,7 +12312,7 @@
 	<D>0</D>
 	<E>29</E>
 	<F>100</F>
-	<G>64</G>
+	<G>50</G>
 </DC_REVERB>
 <DC_GATE_REVERB>
 	<A>30</A>
@@ -12335,8 +12335,8 @@
 <DD>
 	<A>1</A>
 	<B>0</B>
-	<C>23</C>
-	<D>5</D>
+	<C>46</C>
+	<D>0</D>
 </DD>
 <DD_LPF>
 	<A>3</A>
@@ -13067,11 +13067,11 @@
 <DD_REVERB>
 	<A>30</A>
 	<B>0</B>
-	<C>4</C>
-	<D>0</D>
-	<E>29</E>
+	<C>5</C>
+	<D>8</D>
+	<E>27</E>
 	<F>100</F>
-	<G>50</G>
+	<G>12</G>
 </DD_REVERB>
 <DD_GATE_REVERB>
 	<A>30</A>
@@ -13092,19 +13092,19 @@
 	<G>50</G>
 </DD_REVERSE_REVERB>
 </ifx>
-<tfx id="0">
+<tfx id="44">
 <SETUP>
 	<A>0</A>
 </SETUP>
 <A>
 	<A>1</A>
 	<B>1</B>
-	<C>0</C>
+	<C>2</C>
 </A>
 <AA>
 	<A>0</A>
 	<B>0</B>
-	<C>49</C>
+	<C>47</C>
 	<D>0</D>
 </AA>
 <AA_LPF>
@@ -25502,4 +25502,4 @@
 </DD_VINYL_FLICK>
 </tfx>
 </database>
-<count>0017</count>
+<count>001B</count>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <database name="RC-600" revision="0">
-<mem id="0">
+<mem id="69">
 <NAME>
 	<A>73</A>
 	<B>100</B>
@@ -923,7 +923,7 @@
 	<B>1</B>
 </FIXED_VALUE>
 </mem>
-<ifx id="0">
+<ifx id="69">
 <SETUP>
 	<A>2</A>
 </SETUP>
@@ -13092,7 +13092,7 @@
 	<G>50</G>
 </DD_REVERSE_REVERB>
 </ifx>
-<tfx id="0">
+<tfx id="69">
 <SETUP>
 	<A>0</A>
 </SETUP>
@@ -25502,4 +25502,4 @@
 </DD_VINYL_FLICK>
 </tfx>
 </database>
-<count>0017</count>
+<count>0006</count>
