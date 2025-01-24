@@ -332,12 +332,18 @@
         "ON"
     ],
     "PLAYMODE": [
-        "SINGLE",
-        "MULTI"
+        "MULTI",
+        "SINGLE"
     ],
     "MEASURE": [
         "AUTO",
         "FREE",
+        "1/16",
+        "1/8",
+        "1/4",
+        "1/2",
+        "unknownEntry1",
+        "unknownEntry2",
         "1",
         "2",
         "3",
