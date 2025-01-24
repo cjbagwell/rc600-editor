@@ -84,14 +84,24 @@ class LoopTracksFrame(ttk.Frame):
             track['FX'].current(int(curDict['H']))
             track['PLAYMODE'].current(int(curDict['I']))
             track['MEASURE'].current(int(curDict['J']))
-            track['LOOPSYNC'].current(int(curDict['K']))
-            track['LOOPSYNCMODE'].current(int(curDict['L']))
+
+            # This is wrong... it appears to show up correctly whenever there is
+            # audio for the track.. This is confirmed with Sweet
+            # home and johnny b goode
+            track['LOOPSYNC'].current(int(curDict['W']))
+
+            # Note I am not sure what the 'x' key is supposed to be,
+            # but I think it is related to LOOPSYNC and LOOPSYNCMODE
+            track['LOOPSYNCMODE'].current(int(curDict['Y']))# this seems to be right based on sweet home and johnny b goode
+
+            # The ones below have not been confirmed to be correct
             track['TEMPOSYNC'].current(int(curDict['M']))
             track['TEMPOSYNCMODE'].current(int(curDict['N']))
             track['TEMPOSYNCSPEED'].current(int(curDict['O']))
             track['BOUNCEIN'].current(int(curDict['P']))
+
+            # The values below are confirmed to be correct
             new_val = format(int(curDict['Q']), '07b')
-            # print(f'Track {i+1} binVal: {new_val} HexVal: {hex_val}')
             track['MIC1'].current(int(new_val[-1]))
             track['MIC2'].current(int(new_val[-2]))
             track['INST1'].current(int(new_val[-3]))
