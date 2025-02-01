@@ -194,7 +194,6 @@ class AssignsFrame(ttk.Frame):
             comp['target'].current(int(d['G'])+1)
             comp['min'].current(int(d['H']))
             comp['max'].current(int(d['I']))
-            print(f"i:{i} d['J']: {d['J']}")
 
 
 # root = tk.Tk()
