@@ -32,3 +32,8 @@ class InfoFrame(ttk.Frame):
         self.tempo_spinbox.delete(0, tk.END)
         tempo = int(settings_dict['database']['mem']['MASTER']['A'])/10
         self.tempo_spinbox.insert(0, tempo)
+if __name__ == "__main__":
+    root = tk.Tk()
+    frame = InfoFrame(root)
+    frame.pack(expand=True, fill="both")
+    root.mainloop()

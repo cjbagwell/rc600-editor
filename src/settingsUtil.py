@@ -72,26 +72,28 @@ def printTrackSettings(trackDict):
     # print(f"SETTING-X:       {trackDict['X']}")
     # print(f"SETTING-Y:       {trackDict['Y']}")
 
-
-# myFile = r"F:\ROLAND\DATA\MEMORY099A.RC0"
-# # myFile = r'exampleData\ROLAND\DATA\MEMORY001A.RC0'
-# settings = read_settings_file(myFile)
-# # export_to_json(settings, 'settings.json')
-# # print(uni2Str(settings['database']['mem']['NAME']))
-# # print(f"Tempo {int(settings['database']['mem']['MASTER']['A'])/10} BPM")
-# print(f'Track 1')
-# printTrackSettings(settings['database']['mem']['TRACK1'])
-# print(f'\nTrack 2')
-# printTrackSettings(settings['database']['mem']['TRACK2'])
-# print(f'\nTrack 3')
-# printTrackSettings(settings['database']['mem']['TRACK3'])
-# print(f'\nTrack 4')
-# printTrackSettings(settings['database']['mem']['TRACK4'])
-# print(f'\nTrack 5')
-# printTrackSettings(settings['database']['mem']['TRACK5'])
-# print(f'\nTrack 6')
-# printTrackSettings(settings['database']['mem']['TRACK6'])
-# # print(settings['database']['mem']['MASTER']['D'])
-# # [print(x) for x in settings['database']['mem']]
-# # print(settings['database']['mem'].keys())
-# print('here')
+if __name__ == "__main__":
+    myFile =  r'exampleData\ROLAND\DATA\MEMORY062B.RC0'# Sweethome
+    # myFile = r'exampleData\ROLAND\DATA\MEMORY001A.RC0'
+    settings = read_settings_file(myFile)
+    # export_to_json(settings, 'settings.json')
+    myStr = uni2Str(settings['database']['mem']['NAME'])
+    myDic = str2Uni(myStr)
+    print(myStr)
+    # print(f"Tempo {int(settings['database']['mem']['MASTER']['A'])/10} BPM")
+    # print(f'Track 1')
+    # printTrackSettings(settings['database']['mem']['TRACK1'])
+    # print(f'\nTrack 2')
+    # printTrackSettings(settings['database']['mem']['TRACK2'])
+    # print(f'\nTrack 3')
+    # printTrackSettings(settings['database']['mem']['TRACK3'])
+    # print(f'\nTrack 4')
+    # printTrackSettings(settings['database']['mem']['TRACK4'])
+    # print(f'\nTrack 5')
+    # printTrackSettings(settings['database']['mem']['TRACK5'])
+    # print(f'\nTrack 6')
+    # printTrackSettings(settings['database']['mem']['TRACK6'])
+    # print(settings['database']['mem']['MASTER']['D'])
+    # [print(x) for x in settings['database']['mem']]
+    # print(settings['database']['mem'].keys())
+    print('here')

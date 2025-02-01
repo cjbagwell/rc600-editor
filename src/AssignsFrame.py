@@ -194,9 +194,10 @@ class AssignsFrame(ttk.Frame):
             comp['target'].current(int(d['G'])+1)
             comp['min'].current(int(d['H']))
             comp['max'].current(int(d['I']))
+            # print(f"i:{i} d['J']: {d['J']}")
 
-
-# root = tk.Tk()
-# root.title("Assigns")
-# AssignsFrame(root).pack(fill="both", expand=True)
-# root.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.title("Assigns")
+    AssignsFrame(root).pack(fill="both", expand=True)
+    root.mainloop()

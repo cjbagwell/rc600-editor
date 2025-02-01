@@ -268,13 +268,17 @@ class LoopRhythmFrame(ttk.Frame):
 
         print('Loading Loop Rhythm Settings from dict')
 
-# root = tk.Tk()
-# lf = LoopFrame(root)
 
-# import settingsUtil as su
-# file = r'exampleData\ROLAND\DATA\MEMORY011A.RC0'
-# # file = r"F:\ROLAND\DATA\MEMORY098A.RC0"
-# settings_dict = su.read_settings_file(file)
-# lf.load_from_settings_dict(settings_dict)
-# lf.pack(expand=True, fill="both")
-# lf.mainloop()
+
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    lf = LoopFrame(root)
+
+    import settingsUtil as su
+    file = r'exampleData\ROLAND\DATA\MEMORY011A.RC0'
+    # file = r"F:\ROLAND\DATA\MEMORY098A.RC0"
+    settings_dict = su.read_settings_file(file)
+    lf.load_from_settings_dict(settings_dict)
+    lf.pack(expand=True, fill="both")
+    lf.mainloop()

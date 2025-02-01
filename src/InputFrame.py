@@ -177,15 +177,12 @@ class InputFrame(ttk.Frame):
                 'noiseSuppression': noiseSuppression
             })
 
-
-
-
-
-root = tk.Tk()
-root.title("Input Editor")
-tmp = InputFrame(root)
-tmp.pack(expand=True, fill="both")
-root.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.title("Input Editor")
+    tmp = InputFrame(root)
+    tmp.pack(expand=True, fill="both")
+    root.mainloop()
 
 
 

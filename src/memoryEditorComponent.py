@@ -54,20 +54,21 @@ class MemoryEditorComponent(ttk.Frame):
     def export_as_settings_file(self, file):
         print("Exporting as settings file not implemented yet")
 
-root = tk.Tk()
-root.title("Memory Editor")
-tmp = MemoryEditorComponent(root)
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.title("Memory Editor")
+    tmp = MemoryEditorComponent(root)
 
 
-file_base = r'exampleData\ROLAND\DATA\MEMORY062'# Sweethome
-# file_base = r'exampleData\ROLAND\DATA\MEMORY066'# Johnny B Goode
+    file_base = r'exampleData\ROLAND\DATA\MEMORY062'# Sweethome
+    # file_base = r'exampleData\ROLAND\DATA\MEMORY066'# Johnny B Goode
 
 
-tmp.notebook.pack(expand=True, fill="both")
-tmp.load_settings_file(file_base + 'A.RC0')
-tmp.mainloop()
-# root = tk.Tk()
-# root.title("Memory Editor")
-# tmp = MemoryEditorComponent(root)
-# tmp.load_settings_file(file_base + 'B.RC0')
-# tmp.mainloop()
+    tmp.notebook.pack(expand=True, fill="both")
+    tmp.load_settings_file(file_base + 'A.RC0')
+    tmp.mainloop()
+    # root = tk.Tk()
+    # root.title("Memory Editor")
+    # tmp = MemoryEditorComponent(root)
+    # tmp.load_settings_file(file_base + 'B.RC0')
+    # tmp.mainloop()
