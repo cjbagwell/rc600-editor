@@ -10,11 +10,18 @@ class InfoFrame(ttk.Frame):
         self.create_widgets()
 
     def create_widgets(self):
+        # Define the validation function
+        def validate_name_length(P):
+            return len(P) <= 12
+
+        # Register the validation function
+        vcmd = (self.register(validate_name_length), '%P')
+
         self.name_label = ttk.Label(self, text="Name")
-        self.name_entry = ttk.Entry(self)
+        self.name_entry = ttk.Entry(self, validate="key", validatecommand=vcmd)
         self.tempo_label = ttk.Label(self, text="Tempo")
         self.tempo_spinbox = ttk.Spinbox(self, from_=40, to=300, increment=0.1)
-        
+
         # position them on the grid
         self.name_label.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
         self.name_entry.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
