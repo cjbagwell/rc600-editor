@@ -39,6 +39,16 @@ def uni2Str(d):
         outStr += chr(int(value))
     return outStr
 
+# This function converts a string to a dictionary with
+# alphabetic keys up to 12 characters
+def str2Uni(s):
+    outDict = {}
+    for i in range(12):
+        if i >= len(s):
+            # pad with spaces
+            s += chr(32)
+        outDict[chr(65+i)] = ord(s[i])
+    return outDict
 # # Function to export a dictionary as a JSON file
 # def export_to_json(data, filename):
 #     with open(filename, 'w') as json_file:
