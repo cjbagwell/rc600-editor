@@ -67,3 +67,11 @@ class ControlFunctionFrame(ttk.Frame):
         # Set fixed width for each column
         for col in range(1, 4):
             self.grid_columnconfigure(col, minsize=400)
+
+    def load_from_settings_dict(self, settings_dict):
+        # TODO: Implement this method
+        pass
+
+    def export_as_settings_dict(self, settings_dict):
+        # TODO: Implement this method
+        return settings_dict
