@@ -32,6 +32,13 @@ class InfoFrame(ttk.Frame):
         self.tempo_spinbox.delete(0, tk.END)
         tempo = int(settings_dict['database']['mem']['MASTER']['A'])/10
         self.tempo_spinbox.insert(0, tempo)
+
+    def export_as_settings_dict(self, settings_dict):
+        # TODO: Implement this method
+        settings_dict['database']['mem']['NAME'] = su.str2Uni(self.name_entry.get())
+        settings_dict['database']['mem']['MASTER']['A'] = int(float(self.tempo_spinbox.get())*10)
+        return settings_dict
+
 if __name__ == "__main__":
     root = tk.Tk()
     frame = InfoFrame(root)

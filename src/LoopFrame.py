@@ -33,6 +33,13 @@ class LoopFrame(ttk.Frame):
         self.play_frame.load_from_settings_dict(settings)
         self.rhythm_frame.load_from_settings_dict(settings)
 
+    def export_as_settings_dict(self, settings_dict):
+        settings_dict = self.tracks_frame.export_as_settings_dict(settings_dict)
+        settings_dict = self.record_frame.export_as_settings_dict(settings_dict)
+        settings_dict = self.play_frame.export_as_settings_dict(settings_dict)
+        settings_dict = self.rhythm_frame.export_as_settings_dict(settings_dict)
+        return settings_dict
+
 class LoopTracksFrame(ttk.Frame):
     def __init__(self, parent):
         super().__init__(parent)
@@ -108,6 +115,36 @@ class LoopTracksFrame(ttk.Frame):
             track['INST2'].current(int(new_val[-5]))
             track['RHYTHM'].current(int(new_val[-7]))
 
+    def export_as_settings_dict(self, settings_dict):
+        # TODO: implement this method correctly
+        for i, track in enumerate(self.track_components):
+            curDict = settings_dict['database']['mem'][f'TRACK{i+1}']
+            curDict['A'] = track['REVERSE'].current()
+            curDict['B'] = track['1SHOT'].current()
+            curDict['C'] = track['PAN'].current()
+            curDict['D'] = track['PLAYLEVEL'].current()
+            curDict['E'] = track['STARTMODE'].current()
+            curDict['F'] = track['STOPMODE'].current()
+            curDict['G'] = track['DUBMODE'].current()
+            curDict['H'] = track['FX'].current()
+            curDict['I'] = track['PLAYMODE'].current()
+            curDict['J'] = track['MEASURE'].current()
+            curDict['W'] = track['LOOPSYNC'].current()
+            curDict['Y'] = track['LOOPSYNCMODE'].current()
+            curDict['M'] = track['TEMPOSYNC'].current()
+            curDict['N'] = track['TEMPOSYNCMODE'].current()
+            curDict['O'] = track['TEMPOSYNCSPEED'].current()
+            curDict['P'] = track['BOUNCEIN'].current()
+            bin_val = ''
+            bin_val += str(track['MIC1'].current())
+            bin_val += str(track['MIC2'].current())
+            bin_val += str(track['INST1'].current())
+            bin_val += str(track['INST2'].current())
+            bin_val += str(track['RHYTHM'].current())
+            curDict['Q'] = int(bin_val, 2)
+            settings_dict['database']['mem'][f'TRACK{i+1}'] = curDict
+        return settings_dict
+
 class LoopRecordFrame(ttk.Frame):
     def __init__(self, parent):
         super().__init__(parent)
@@ -146,6 +183,21 @@ class LoopRecordFrame(ttk.Frame):
         self.components['BOUNCE TRACK 4'].current(int(bin_val[3]))
         self.components['BOUNCE TRACK 5'].current(int(bin_val[4]))
         self.components['BOUNCE TRACK 6'].current(int(bin_val[5]))
+
+    def export_as_settings_dict(self, settings_dict):
+        # TODO: implement this method correctly
+        d = settings_dict['database']['mem']['REC']
+        d['A'] = self.components['RECACTION'].current()
+        d['B'] = self.components['QUANTIZE'].current()
+        d['C'] = self.components['AUTO REC'].current()
+        d['D'] = self.components['AUTO REC SENS'].current()
+        d['E'] = self.components['BOUNCE'].current()
+        bin_val = ''
+        for i in range(1, 7):
+            bin_val += str(self.components[f'BOUNCE TRACK {i}'].current())
+        d['F'] = int(bin_val, 2)
+        settings_dict['database']['mem']['REC'] = d
+        return settings_dict
 
 class LoopPlayFrame(ttk.Frame):
     def __init__(self, parent):
@@ -196,6 +248,33 @@ class LoopPlayFrame(ttk.Frame):
 
         print('Loading Loop Play Settings from dict')
 
+    def export_as_settings_dict(self, settings_dict):
+        # TODO: implement this method correctly
+        d = settings_dict['database']['mem']['PLAY']
+        d['A'] = self.components['S.TRK CHANGE'].current()
+        d['B'] = self.components['FADE IN TIME'].current()
+        d['C'] = self.components['FADE OUT TIME'].current()
+        all_start = ''
+        all_start += str(self.components['ALL START TRK1'].current())
+        all_start += str(self.components['ALL START TRK2'].current())
+        all_start += str(self.components['ALL START TRK3'].current())
+        all_start += str(self.components['ALL START TRK4'].current())
+        all_start += str(self.components['ALL START TRK5'].current())
+        all_start += str(self.components['ALL START TRK6'].current())
+        d['D'] = int(all_start, 2)
+        all_stop = ''
+        all_stop += str(self.components['ALL STOP TRK1'].current())
+        all_stop += str(self.components['ALL STOP TRK2'].current())
+        all_stop += str(self.components['ALL STOP TRK3'].current())
+        all_stop += str(self.components['ALL STOP TRK4'].current())
+        all_stop += str(self.components['ALL STOP TRK5'].current())
+        all_stop += str(self.components['ALL STOP TRK6'].current())
+        d['E'] = int(all_stop, 2)
+        # d['F'] = self.components['LOOP LENGTH'].current()
+        d['G'] = self.components['SPEED CHANGE'].current()
+        d['H'] = self.components['SYNC ADJUST'].current()
+        settings_dict['database']['mem']['PLAY'] = d
+        return settings_dict
 
 class LoopRhythmFrame(ttk.Frame):
     def __init__(self, parent):
@@ -268,6 +347,23 @@ class LoopRhythmFrame(ttk.Frame):
 
         print('Loading Loop Rhythm Settings from dict')
 
+    def export_as_settings_dict(self, settings_dict):
+        # TODO: implement this method correctly
+        d = settings_dict['database']['mem']['RHYTHM']
+        d['F'] = self.components['BEAT'].current()
+        d['A'] = self.components['GENRE'].current()
+        d['B'] = self.components['PATTERN'].current()
+        d['C'] = self.components['VARIATION'].current()
+        d['D'] = self.components['KIT'].current()
+        d['G'] = self.components['START_TRIGGER'].current()
+        d['H'] = self.components['STOP_TRIGGER'].current()
+        d['I'] = self.components['INTRO_REC'].current()
+        d['J'] = self.components['INTRO_PLAY'].current()
+        d['K'] = self.components['ENDING'].current()
+        d['L'] = self.components['FILL'].current()
+        d['M'] = self.components['VARIATION_CHANGE'].current()
+        settings_dict['database']['mem']['RHYTHM'] = d
+        return settings_dict
 
 
 

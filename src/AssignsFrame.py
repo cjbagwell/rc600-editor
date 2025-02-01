@@ -195,6 +195,22 @@ class AssignsFrame(ttk.Frame):
             comp['min'].current(int(d['H']))
             comp['max'].current(int(d['I']))
             # print(f"i:{i} d['J']: {d['J']}")
+    def export_as_settings_dict(self, settings_dict={}):
+        # TODO: Implement this function correctly
+        for i, comp in enumerate(self.components):
+            settings_dict['database']['mem'][f"ASSIGN{str(i+1)}"] = {
+                'A': int(comp['enable'].get()),
+                'B': comp['source'].current(),
+                'C': comp['mode'].current(),
+                'D': 0,
+                'E': int(comp['act_lo'].get()),
+                'F': int(comp['act_hi'].get()),
+                'G': comp['target'].current()-1,
+                'H': comp['min'].current(),
+                'I': comp['max'].current(),
+                'J': 0
+            }
+        return settings_dict
 
 if __name__ == "__main__":
     root = tk.Tk()

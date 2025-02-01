@@ -7,7 +7,7 @@ class InputFrame(ttk.Frame):
         super().__init__(parent)
         self.parent = parent
         self.create_widgets()
-    
+
     def create_widgets(self):
         # Create Microphone columns
         self.microphone_elements = []
@@ -92,7 +92,7 @@ class InputFrame(ttk.Frame):
                 'compression': compression,
                 'noiseSuppression': noiseSuppression
             })
-        
+
         # Create Instrument columns
         self.instrument_elements = []
         for i in range(2):
@@ -176,6 +176,15 @@ class InputFrame(ttk.Frame):
                 'compression': compression,
                 'noiseSuppression': noiseSuppression
             })
+
+    def load_from_settings_dict(self, settings_dict):
+        print("Loading Input Settings from Settings Dict not yet implemented")
+        return
+
+    def export_as_settings_dict(self,settings_dict):
+        print("Exporting Input Settings as Settings Dict not yet implemented")
+        return settings_dict
+
 
 if __name__ == "__main__":
     root = tk.Tk()
