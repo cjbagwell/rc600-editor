@@ -1,24 +1,41 @@
 import re
 import json
+import xmltodict
 
-# This function reads xml text and returns the setting as a dictionary
-def read_settings_text(inputText):
-    settings = {}
-    # find all tags
-    matches = re.findall(r"<(\w+)[^>]*>(.*?)</\1>", inputText, re.DOTALL)
-    for match in matches:
-        tagName = match[0]
-        tagValue = match[1]
-        # recursively process the tag value
-        processedValue = read_settings_text(tagValue)
-        if tagName in settings:
-            if isinstance(settings[tagName], list):
-                settings[tagName].append(processedValue)
-            else:
-                settings[tagName] = [settings[tagName], processedValue]
-        else:
-            settings[tagName] = processedValue
-    return settings if settings else inputText
+# These are the tags that are not allowed in standard XML but stupid Roland uses them
+bad_tags = [("0", "ZERO"), ("1", "ONE"), ("2", "TWO"), ("3", "THREE"), ("4", "FOUR"), ("5", "FIVE"), ("6", "SIX"), ("7", "SEVEN"), ("8", "EIGHT"), ("9", "NINE"),("#","POUND")]
+# This function reads a settings file string and returns the setting as a dictionary
+def read_settings_text(data):
+    # remove the bad tags
+    for tag in bad_tags:
+        data = data.replace(f"<{tag[0]}>", f"<{tag[1]}>")
+        data = data.replace(f"</{tag[0]}>", f"</{tag[1]}>")
+    # remove last tag "count"
+    cVal = re.findall(r"\n<count>(.*?)</count>", data)[0]
+    data = re.sub(r"\n<count>.*?</count>", "", data)
+    outputDict = xmltodict.parse(data)
+    outputDict['count'] = cVal
+    return outputDict
+
+def write_settings_text(data):
+    cVal = data['count']
+    del data['count']
+    settingsText = xmltodict.unparse(data, pretty=True)
+    # Replace the temporary tags with the original tags
+    for tag in bad_tags:
+        settingsText = settingsText.replace(f"<{tag[1]}>", f"<{tag[0]}>")
+        settingsText = settingsText.replace(f"</{tag[1]}>", f"</{tag[0]}>")
+    # put back to initial tab formatting
+    settingsText = re.sub(r"\t+", "", settingsText, flags=re.MULTILINE)
+    settingsText = re.sub(r"^<([^>]+)>([^\n]+?)<\/\1>$",r"\t<\1>\2</\1>",settingsText,flags=re.MULTILINE)
+    # add the count tag back
+    settingsText += f"\n<count>{cVal}</count>"
+    return settingsText
+
+def write_settings_file(data, filename):
+    settingsText = write_settings_text(data)
+    with open(filename, 'w') as file:
+        file.write(settingsText)
 
 """This function reads a single settings file from the boss rc600.  The file should be formatted
  just like an XML file, but the tags are allowed to start with numeric values. The value
@@ -27,9 +44,6 @@ def read_settings_text(inputText):
 def read_settings_file(fileName):
     with open(fileName, "r") as file:
         data = file.read()
-        # remove the xml version tag
-        data = re.sub(r"<\?xml[^>]+\?>", "", data)
-    # replace numeric tags with a double letter letter
     return read_settings_text(data)
 
 # This function converts a dictionary to a string
