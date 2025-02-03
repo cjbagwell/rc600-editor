@@ -58,13 +58,13 @@ class MemoryEditorComponent(ttk.Frame):
         print("Exporting as settings file not implemented yet")
 
     def export_as_settings_dict(self):
-        settings = {}
-        self.info_frame.export_as_settings_dict(settings)
-        self.loop_frame.export_as_settings_dict(settings)
-        self.ctl_func_frame.export_as_settings_dict(settings)
-        self.assigns_frame.export_as_settings_dict(settings)
-        return settings
-        return {}
+        settings_dict = su.read_settings_file('data/empty_settings.RC0')
+        self.info_frame.export_as_settings_dict(settings_dict)
+        self.loop_frame.export_as_settings_dict(settings_dict)
+        self.ctl_func_frame.export_as_settings_dict(settings_dict)
+        self.assigns_frame.export_as_settings_dict(settings_dict)
+        return settings_dict
+        # return {}
 
 if __name__ == "__main__":
     root = tk.Tk()
