@@ -5,7 +5,6 @@ from LoopFrame import LoopFrame
 from AssignsFrame import AssignsFrame
 from ControlFunctionsFrame import ControlFunctionFrame
 import settingsUtil as su
-import json
 
 
 class MemoryEditorComponent(ttk.Frame):
