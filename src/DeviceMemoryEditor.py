@@ -9,6 +9,7 @@ class DeviceMemoryEditor(ttk.Frame):
     def __init__(self, parent, rootDir):
         super().__init__(parent)
         self.parent = parent
+        self.is_loading_config = False
         # get a list of all files under the root directory
         self.rootDir = rootDir
         self.configsList = []
@@ -32,8 +33,8 @@ class DeviceMemoryEditor(ttk.Frame):
         save_button.grid(row=0, column=0, sticky="ew")
         restore_button = ttk.Button(list_frame, text="Restore")
         restore_button.grid(row=1, column=0, sticky="ew")
-        save_button.bind("<Button-1>", self.save)
-        restore_button.bind("<Button-1>", self.restore)
+        save_button.bind("<Button-1>", self.save_config)
+        restore_button.bind("<Button-1>", self.restore_config)
 
         # Create a scrollbar
         scrollbar = ttk.Scrollbar(list_frame, orient="vertical")
@@ -53,7 +54,7 @@ class DeviceMemoryEditor(ttk.Frame):
             self.listbox.insert(tk.END, f"{idx + 1}. {config['title']}")
 
         # Bind the listbox selection event
-        self.listbox.bind("<<ListboxSelect>>", self.on_item_selected)
+        self.listbox.bind("<<ListboxSelect>>", self.on_config_item_selected)
 
         # Create a frame for the MemoryEditorComponent
         self.editor_frame = ttk.Frame(self)
@@ -63,28 +64,46 @@ class DeviceMemoryEditor(ttk.Frame):
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
 
-    def on_item_selected(self, event):
+    def on_config_item_selected(self, event):
         # Get the selected item index
+        if self.is_loading_config:
+            return
+        self.is_loading_config = True
+        print("Loading config")
         selection = event.widget.curselection()
         if selection:
             index = selection[0]
             item = self.configsList[index]
+            self.cur_config_index = index
+            self.load_editor_from_config_item(item)
+        # set the selection to what was initially selected
+        self.listbox.selection_clear(0, tk.END)
+        self.is_loading_config = False
 
-            # Clear the editor frame
-            for widget in self.editor_frame.winfo_children():
-                widget.destroy()
+    def load_editor_from_config_item(self, item):
+        # Clear the editor frame
+        for widget in self.editor_frame.winfo_children():
+            widget.destroy()
 
-            # Create a new MemoryEditorComponent
-            editor = MemoryEditorComponent(self.editor_frame)
-            editor.load_from_settings_dict(item["settings"])
-            editor.pack(expand=True, fill="both")
+        # Create a new MemoryEditorComponent
+        self.cur_editor_item = item
+        self.editor = MemoryEditorComponent(self.editor_frame)
+        self.editor.load_from_settings_dict(item["settings"])
+        self.editor.pack(expand=True, fill="both")
 
-    def save(self, event):
-        settings_dict = self.editor_frame.winfo_children()[0].export_as_settings_dict()
-        print("Save button clicked")
+    def save_config(self, event):
+        settings_dict = self.editor.export_as_settings_dict()
+        self.cur_editor_item["settings"] = settings_dict
+        su.write_settings_file(settings_dict, join(self.rootDir + "/Data", self.cur_editor_item["file"]))
+        self.configsList[self.cur_config_index]["settings"] = settings_dict
+        self.configsList[self.cur_config_index]["title"] = su.uni2Str(settings_dict['database']['mem']['NAME']) 
+        self.listbox.delete(self.cur_config_index)
+        self.listbox.insert(self.cur_config_index, f"{self.cur_config_index + 1}. {self.configsList[self.cur_config_index]['title']}")
+        # self.
+        # self.editor_config = settings_dict
 
-    def restore(self, event):
-        print("Restore button clicked")
+    def restore_config(self, event):
+        self.load_editor_from_config_item(self.cur_editor_item)
 
 
 # Example usage
